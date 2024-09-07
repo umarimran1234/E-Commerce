@@ -1,13 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaShoppingBag } from 'react-icons/fa';
+import { FaHeart, FaShoppingBag } from 'react-icons/fa';
+import { MdAccountCircle, MdMessage } from 'react-icons/md';
+import { FaCartShopping } from 'react-icons/fa6';
+import { IoReorderThreeOutline } from 'react-icons/io5';
+import { CiFlag1 } from 'react-icons/ci';
 
 const Navbar: React.FC = () => {
     return (
         <header className="bg-white shadow-md">
-            <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+            <div className="container border-b-2 mb-2 mx-auto px-4 py-2 flex items-center justify-between">
                 {/* Left Side */}
-                <div className="flex w-1/2 justify-between items-center space-x-4">
+                <div className="flex w-1/2 mb-2 justify-between items-center space-x-4">
                     <div className="flex gap-2 items-center">
                         {/* Brand Logo */}
                         <span className='bg-[#0D6EFD] text-white p-1 rounded-lg'><FaShoppingBag /></span>
@@ -19,38 +23,43 @@ const Navbar: React.FC = () => {
                         <input
                             type="text"
                             placeholder="Search"
-                            className="border border-[#0D6EFD] rounded-full py-2 pl-4 pr-10 w-[30rem] focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="border border-[#0D6EFD] rounded-lg py-2 pl-4 pr-10 w-[18rem] md:w-[30rem] focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
-                        <select className="absolute right-16 border-x-2 p-2 border-[#0D6EFD] top-1/2 transform -translate-y-1/2 text-gray-500">
-                            <option value="all">All categories</option>
+                        <select className="absolute right-16 border-l-2 border-[#0D6EFD] top-1/2 transform -translate-y-1/2 text-[#1C1C1C] p-2 text-gray-500">
+                            <option value="all">All category</option>
                         </select>
-                        <span className='absolute right-2 top-1/2 transform -translate-y-1/2'>Search</span>
+                        <button className='absolute border-[#0D6EFD] right-0 rounded-r-lg text-white top-1/2 transform -translate-y-1/2 p-2 bg-[#0D6EFD]'>Search</button>
                     </div>
                 </div>
 
                 {/* Right Side */}
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center lg:block hidden space-x-4">
                     {/* Icons */}
-                    <div className="flex space-x-4">
-                        <Link href="#">
-                            <span className="text-gray-700 hover:text-blue-500">Profile</span>
+                    <div className="flex space-x-4 text-[#8B96A5]">
+                        <Link href="#" className='flex flex-col justify-center items-center'>
+                            <MdAccountCircle className='text-2xl' />
+                            <span className="text-gray-700 hover:text-blue-500 text-[#8B96A5]">Profile</span>
                         </Link>
-                        <Link href="#">
-                            <span className="text-gray-700 hover:text-blue-500">Messages</span>
+                        <Link href="#" className='flex flex-col justify-center items-center'>
+                            <MdMessage className='text-2xl' />
+                            <span className="text-gray-700 hover:text-blue-500 text-[#8B96A5]">Messages</span>
                         </Link>
-                        <Link href="#">
-                            <span className="text-gray-700 hover:text-blue-500">Orders</span>
+                        <Link href="#" className='flex flex-col justify-center items-center'>
+                            <FaHeart className='text-2xl' />
+                            <span className="text-gray-700 hover:text-blue-500 text-[#8B96A5]">Orders</span>
                         </Link>
-                        <Link href="#">
-                            <span className="text-gray-700 hover:text-blue-500">My Cart</span>
+                        <Link href="#" className='flex flex-col justify-center items-center'>
+                            <FaCartShopping className='text-2xl' />
+                            <span className="text-gray-700 hover:text-blue-500 text-[#8B96A5]">My Cart</span>
                         </Link>
                     </div>
                 </div>
             </div>
             {/* Nav Links */}
-            <nav className="hidden container mx-auto lg:flex justify-between">
-                <div className='space-x-4'>
-                    <Link href="#">
+            <nav className="hidden container mx-auto lg:flex items-center justify-between">
+                <div className='space-x-8 font-medium lg:flex items-center mb-2'>
+                    <Link href="#" className='flex items-center gap-1'>
+                        <IoReorderThreeOutline className='font-bold text-xl' />
                         <span className="text-gray-700 hover:text-blue-500">All Category</span>
                     </Link>
                     <Link href="#">
@@ -65,17 +74,21 @@ const Navbar: React.FC = () => {
                     <Link href="#">
                         <span className="text-gray-700 hover:text-blue-500">Menu Item</span>
                     </Link>
+                    <select>
+                        <option value="all">Help</option>
+                    </select>
                 </div>
                 {/* Language and Shipping */}
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center font-medium space-x-4">
                     <select className="text-gray-700">
                         <option>English, USD</option>
                     </select>
                     <div>
-                        <span role="img" aria-label="Germany Flag">
-                            🇩🇪
-                        </span>
-                        Ship to
+                        <select className="text-gray-700">
+                            <option>
+                                Ship to
+                            </option>
+                        </select>
                     </div>
                 </div>
             </nav>
