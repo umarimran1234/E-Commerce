@@ -1,12 +1,7 @@
-import Banner from "@/components/Banner/Banner";
-import Navbar from "@/components/Navbar/Navbar";
-import Image from "next/image";
+// import TabsDemo from "@/components/example/tabs-demo";
+
+import Main from "@/components/main/main";
 
 export default function Home() {
-  return (
-    <div>
-      <Navbar></Navbar>
-      <Banner></Banner>
-    </div>
-  );
+  return <Main />;
 }
