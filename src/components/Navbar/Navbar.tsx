@@ -4,7 +4,7 @@ import { FaHeart, FaShoppingBag } from 'react-icons/fa';
 import { MdAccountCircle, MdMessage } from 'react-icons/md';
 import { FaCartShopping } from 'react-icons/fa6';
 import { IoReorderThreeOutline } from 'react-icons/io5';
-import { CiFlag1 } from 'react-icons/ci';
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
     return (
@@ -12,11 +12,10 @@ const Navbar: React.FC = () => {
             <div className="container border-b-2 mb-2 mx-auto px-4 py-2 flex items-center justify-between">
                 {/* Left Side */}
                 <div className="flex w-1/2 mb-2 justify-between items-center space-x-4">
-                    <div className="flex gap-2 items-center">
+                    <Link href={"/"} className="flex gap-2 items-center">
                         {/* Brand Logo */}
-                        <span className='bg-[#0D6EFD] text-white p-1 rounded-lg'><FaShoppingBag /></span>
-                        <div className="text-[#8CB7F5] font-bold text-xl">Brand</div>
-                    </div>
+                        <Image width={100} height={100} alt="Website logo" src={"/images/E-CommerceLogo-1.png"}></Image>
+                    </Link>
 
                     {/* Search Bar */}
                     <div className="relative">
