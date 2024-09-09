@@ -54,19 +54,19 @@ const data = [
   {
     category: "Artificial Intelligence",
     title: "You can do more with AI.",
-    src: "/Images/menkurta.jpg",
+    src: "/images/menkurta.jpg",
     content: <DummyContent />,
   },
   {
     category: "Productivity",
     title: "Enhance your productivity.",
-    src: "/Images/joggerpentsboys.jpg",
+    src: "/images/joggerpentsboys.jpg",
     content: <DummyContent />,
   },
   {
     category: "Product",
     title: "Launching the new Apple Vision Pro.",
-    src: "/Images/mensshirts2.jpg",
+    src: "/images/mensshirts2.jpg",
     content: <DummyContent />,
   },
 
