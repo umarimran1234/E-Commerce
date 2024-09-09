@@ -35,7 +35,7 @@ const DealsSection = () => {
           {/* Product 1 */}
           <div className="bg-white  border-2 p-4 text-center">
             <img
-              src="https://via.placeholder.com/100"
+              src="/images/Kurta.png"
               alt="Smart watches"
               className="mx-auto mb-4"
             />
@@ -48,7 +48,7 @@ const DealsSection = () => {
           {/* Product 2 */}
           <div className="bg-white border-2 p-4 text-center">
             <img
-              src="https://via.placeholder.com/100"
+              src="/images/T-Shirt.png"
               alt="Laptops"
               className="mx-auto mb-4"
             />
@@ -61,7 +61,7 @@ const DealsSection = () => {
           {/* Product 3 */}
           <div className="bg-white border-2 p-4 text-center">
             <img
-              src="https://via.placeholder.com/100"
+              src="/images/Trouser.png"
               alt="GoPro cameras"
               className="mx-auto mb-4"
             />
@@ -74,7 +74,7 @@ const DealsSection = () => {
           {/* Product 4 */}
           <div className="bg-white border-2 p-4 text-center">
             <img
-              src="https://via.placeholder.com/100"
+              src="/images/Shirt.png"
               alt="Headphones"
               className="mx-auto mb-4"
             />
@@ -87,7 +87,7 @@ const DealsSection = () => {
           {/* Product 5 */}
           <div className="bg-white border-2 p-4 text-center">
             <img
-              src="https://via.placeholder.com/100"
+              src="/images/Shorts.png"
               alt="Canon cameras"
               className="mx-auto mb-4"
             />

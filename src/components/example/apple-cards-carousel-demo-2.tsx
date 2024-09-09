@@ -37,7 +37,7 @@ const DummyContent = () => {
               thought.
             </p>
             <Image
-              src="/images/T-Shirt.jpg"
+              src="/images/Kurta-Big.png"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
@@ -54,50 +54,50 @@ const data = [
   {
     category: "T-Shirt",
     title: "",
-    src: "/images/T-Shirt.jpg",
+    src: "/images/Kurta-Big.png",
     content: <DummyContent />,
   },
   {
     category: "Inner wear",
     title: "",
-    src: "/images/Innerwear.jpg",
+    src: "/images/T-Shirt-Big.png",
     content: <DummyContent />,
   },
   {
     category: "Footwear",
     title: "",
-    src: "/images/Footwear.jpg",
+    src: "/images/Trouser-Big.png",
     content: <DummyContent />,
   },
 
   {
     category: "Gym wear",
     title: "",
-    src: "/images/Gym.png",
+    src: "/images/Shirt-Big.png",
     content: <DummyContent />,
   },
   {
     category: "Fragrances",
     title: "",
-    src: "/images/Fragrances.jpg",
+    src: "/images/Shorts-Big.png",
     content: <DummyContent />,
   },
   {
     category: "Trouser",
     title: "",
-    src: "/images/Trouser.jpg",
+    src: "/images/Pant-Big.png",
     content: <DummyContent />,
   },
   {
     category: "Shirt",
     title: "",
-    src: "/images/Shirt.jpg",
+    src: "/images/Jogger-Big.png",
     content: <DummyContent />,
   },
   {
     category: "Pant",
     title: "",
-    src: "/images/Pant.jpg",
+    src: "/images/Footwear-Big.png",
     content: <DummyContent />,
   },
 ];

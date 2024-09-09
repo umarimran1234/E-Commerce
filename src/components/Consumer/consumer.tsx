@@ -29,7 +29,7 @@ const Consumer = () => {
             </div>
             <div className="flex justify-end  item-start">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/Gym-Wear.png"
                 alt="Soft chairs"
                 className=" mb-4"
               />
@@ -44,9 +44,9 @@ const Consumer = () => {
             </div>
             <div className="flex justify-end item-start">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/Fragrances.png"
                 alt="Sofa & chair"
-                className=" mb-4"
+                className=" mb-4 w-[100px] h-[100px]"
               />
             </div>
           </div>
@@ -59,7 +59,7 @@ const Consumer = () => {
             </div>
             <div className="flex justify-end item-start">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/Footwear.png"
                 alt="Kitchen dishes"
                 className=" mb-4"
               />
@@ -74,7 +74,7 @@ const Consumer = () => {
             </div>
             <div className="flex justify-end item-start">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/Kurta.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -89,7 +89,7 @@ const Consumer = () => {
             </div>
             <div className="flex justify-end item-start">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/T-Shirt.png"
                 alt="Kitchen mixer"
                 className=" mb-4"
               />
@@ -104,7 +104,7 @@ const Consumer = () => {
             </div>
             <div className="flex justify-end item-start">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/Trouser.png"
                 alt="Blenders"
                 className=" mb-4"
               />
@@ -118,7 +118,7 @@ const Consumer = () => {
             <p className="text-xs text-gray-500">From USD 19</p>
             <div className="flex justify-end">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/Shirt.png"
                 alt="Home appliance"
                 className=" mb-4"
               />
@@ -131,7 +131,7 @@ const Consumer = () => {
             <p className="text-xs text-gray-500">From USD 10</p>
             <div className="flex justify-end">
               <img
-                src="https://via.placeholder.com/100"
+                src="/images/Shorts.png"
                 alt="Coffee maker"
                 className=" mb-4"
               />
