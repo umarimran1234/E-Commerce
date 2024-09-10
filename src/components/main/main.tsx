@@ -72,7 +72,7 @@ export default function Main() {
           <AppleCardsCarouselDemo />
           <QuoteForm />
           <div>
-            <TimelineDemo />
+            {/* <TimelineDemo /> */}
           </div>
           {/* <Subscribe /> */}
           <Footer />
