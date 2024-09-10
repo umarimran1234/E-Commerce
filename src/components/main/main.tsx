@@ -8,7 +8,7 @@ import HomeOutdoorSection from "@/components/HomeOutdoorSection/HomeOutdoorSecti
 import Navbar from "@/components/Navbar/Navbar";
 import Consumer from "../Consumer/consumer";
 import AppleCardsCarouselDemo from "../example/apple-cards-carousel-demo-2";
-import TimelineDemo from "../example/timeline-demo";
+// import TimelineDemo from "../example/timeline-demo";
 import QuoteForm from "../QuoteForm/QuoteForm";
 import CircleAnimation from "../CircleAnimation/CircleAnimation"; // Import the CircleAnimation component
 
