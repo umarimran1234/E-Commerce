@@ -43,7 +43,7 @@ const DealsSection = () => {
                 className=" mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Smart watches</p>
+            <p className="text-sm font-semibold">{"Women's Shorts"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
             </span>
@@ -60,7 +60,7 @@ const DealsSection = () => {
                 className=" mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Laptops</p>
+            <p className="text-sm font-semibold">Trouser</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -15%
             </span>
@@ -77,7 +77,7 @@ const DealsSection = () => {
                 className=" mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">GoPro cameras</p>
+            <p className="text-sm font-semibold">{"Women's Joggers"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -40%
             </span>
@@ -94,7 +94,7 @@ const DealsSection = () => {
                 className=" mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Headphones</p>
+            <p className="text-sm font-semibold">{"Women's Pants"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
             </span>
@@ -111,7 +111,7 @@ const DealsSection = () => {
                 className=" mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Canon cameras</p>
+            <p className="text-sm font-semibold">{"Women's T-Shirt"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
             </span>
