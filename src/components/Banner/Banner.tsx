@@ -6,23 +6,19 @@ const Banner: React.FC = () => {
   const [activeTab, setActiveTab] = useState("Automobiles");
 
   const tabs = [
-    "Automobiles",
+    "Mens",
     "Clothes and wear",
-    "Home interiors",
-    "Computer and tech",
-    "Tools, equipments",
-    "Sports and outdoor",
-    "Animal and pets",
-    "Machinery tools",
-    "More category",
+    "Womens",
   ];
 
   const getContent = () => {
     switch (activeTab) {
-      case "Automobiles":
-        return "Latest trending Electronic items";
+      case "Mens":
+        return "Men's trending fashion items";
       case "Clothes and wear":
         return "Trending fashion items";
+      case "Womens":
+        return "Women's cloths here"
 
       default:
         return "No content available";
@@ -38,9 +34,8 @@ const Banner: React.FC = () => {
             {tabs.map((tab) => (
               <li
                 key={tab}
-                className={`cursor-pointer p-2 ${
-                  activeTab === tab ? "bg-blue-200 font-medium rounded-lg" : ""
-                }`}
+                className={`cursor-pointer p-2 ${activeTab === tab ? "bg-blue-200 font-medium rounded-lg" : ""
+                  }`}
                 onClick={() => setActiveTab(tab)}
               >
                 {tab}
@@ -53,8 +48,7 @@ const Banner: React.FC = () => {
         <main className="w-full md:w-3/5 p-4">
 
           <div
-            style={{ backgroundImage: "url('images/banner1.jpg') " }}
-            className=" p-6 rounded-lg bg-banner h-[20rem]"
+            className={`p-6 rounded-lg h-[20rem] ${activeTab === "Mens" && "bg-mens-fashion"} ${activeTab === "Clothes and wear" && "bg-clothes"} ${activeTab === "Womens" && "bg-womens-fashion"}`}
           >
             <h2 className="text-xl font-semibold bg-white text-black w-fit p-2 rounded-xl">
               {getContent()}

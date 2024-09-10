@@ -19,7 +19,9 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        'banner-image': "url('/images/Fragrances.png')",
+        'mens-fashion': "url('/images/Mens-Fashion.png')",
+        'clothes': "url('/images/Clothes.jpg')",
+        'womens-fashion': "url(/images/Womens-Fashion.png)"
       },
       keyframes: {
         "accordion-down": {
