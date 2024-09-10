@@ -40,12 +40,18 @@ const Navbar: React.FC = () => {
             <select className="absolute right-16 border-l-2 border-[#0D6EFD] top-1/2 transform -translate-y-1/2 text-[#1C1C1C] p-2 text-gray-500">
               <option value="all">All category</option>
             </select>
-            <button className="absolute border-[#0D6EFD] right-0 rounded-r-lg text-white top-1/2 transform -translate-y-1/2 p-2 bg-[#0D6EFD]">
-              Search
+            <button className='absolute border-[#0D6EFD] right-0 rounded-r-lg text-white top-1/2 transform -translate-y-1/2 p-2 bg-[#0D6EFD]'>Search</button>
+          </div>
+
+          {/* Hamburger Icon */}
+          <div className="lg:hidden">
+            <button onClick={handleMenuToggle}>
+              <IoReorderThreeOutline className="text-3xl text-gray-700" />
             </button>
           </div>
 
           {/* Right Side Icons - hidden on smaller devices */}
+
           <div className=" hidden md:flex space-x-4 text-[#8B96A5]">
             <Link
               href="#"
@@ -54,26 +60,17 @@ const Navbar: React.FC = () => {
               <MdAccountCircle className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">Profile</span>
             </Link>
-            <Link
-              href="#"
-              className="flex flex-col justify-center items-center"
-            >
+            <Link href="#" className="flex flex-col justify-center items-center">
               <MdMessage className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">
                 Messages
               </span>
             </Link>
-            <Link
-              href="#"
-              className="flex flex-col justify-center items-center"
-            >
+            <Link href="#" className="flex flex-col justify-center items-center">
               <FaHeart className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">Orders</span>
             </Link>
-            <Link
-              href="#"
-              className="flex flex-col justify-center items-center"
-            >
+            <Link href="#" className="flex flex-col justify-center items-center">
               <FaCartShopping className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">My Cart</span>
             </Link>
@@ -196,19 +193,13 @@ const Navbar: React.FC = () => {
         <div className="space-x-8 font-medium flex items-center mb-2">
           <Link href="#" className="flex items-center gap-1">
             <IoReorderThreeOutline className="font-bold text-xl" />
-            <span className="text-gray-700 hover:text-blue-500">
-              All Category
-            </span>
+            <span className="text-gray-700 hover:text-blue-500">All Category</span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">
-              Hot Offers
-            </span>
+            <span className="text-gray-700 hover:text-blue-500">Hot Offers</span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">
-              Gift Boxes
-            </span>
+            <span className="text-gray-700 hover:text-blue-500">Gift Boxes</span>
           </Link>
           <Link href="#">
             <span className="text-gray-700 hover:text-blue-500">Projects</span>

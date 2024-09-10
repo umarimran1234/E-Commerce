@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'banner-image': "url('/images/Fragrances.png')",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

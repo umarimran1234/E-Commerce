@@ -29,6 +29,7 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end  item-start">
+
               <Image
                 width={100}
                 height={200}
@@ -51,7 +52,7 @@ const Consumer = () => {
                 height={200}
                 src="/images/menspents.jpg"
                 alt="Sofa & chair"
-                className=" mb-4"
+                className=" mb-4 w-[100px] h-[100px]"
               />
             </div>
           </div>

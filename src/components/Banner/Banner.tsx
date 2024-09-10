@@ -51,6 +51,7 @@ const Banner: React.FC = () => {
 
         {/* Main Content Area */}
         <main className="w-full md:w-3/5 p-4">
+
           <div
             style={{ backgroundImage: "url('images/banner1.jpg') " }}
             className=" p-6 rounded-lg bg-banner h-[20rem]"
