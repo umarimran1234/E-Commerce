@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const HomeOutdoorSection = () => {
@@ -28,9 +29,11 @@ const HomeOutdoorSection = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end  item-start">
-              <img
-                src="/images/Pant.png"
-                alt="Soft chairs"
+              <Image
+                width={100}
+                height={200}
+                src="/images/gentsimg2.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -43,9 +46,11 @@ const HomeOutdoorSection = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Jogger.png"
-                alt="Sofa & chair"
+              <Image
+                width={100}
+                height={200}
+                src="/images/womansShirts.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -58,9 +63,11 @@ const HomeOutdoorSection = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/T-Shirt-Women.png"
-                alt="Kitchen dishes"
+              <Image
+                width={100}
+                height={200}
+                src="/images/gentsimg1.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -73,8 +80,10 @@ const HomeOutdoorSection = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Trouser-Women.png"
+              <Image
+                width={100}
+                height={200}
+                src="/images/mensshirts2.jpg"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -88,9 +97,11 @@ const HomeOutdoorSection = () => {
               <p className="text-xs text-gray-500">From USD 100</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Shirt-Women.png"
-                alt="Kitchen mixer"
+              <Image
+                width={100}
+                height={200}
+                src="/images/menkurta.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -103,9 +114,11 @@ const HomeOutdoorSection = () => {
               <p className="text-xs text-gray-500">From USD 39</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Shorts-Women.png"
-                alt="Blenders"
+              <Image
+                width={100}
+                height={200}
+                src="/images/womansShirts.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -117,9 +130,11 @@ const HomeOutdoorSection = () => {
             <p className="text-sm font-semibold">Home appliance</p>
             <p className="text-xs text-gray-500">From USD 19</p>
             <div className="flex justify-end">
-              <img
-                src="/images/Pant-Women.png"
-                alt="Home appliance"
+              <Image
+                width={70}
+                height={200}
+                src="/images/joggerpentsboys.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -130,9 +145,11 @@ const HomeOutdoorSection = () => {
             <p className="text-sm font-semibold">Coffee maker</p>
             <p className="text-xs text-gray-500">From USD 10</p>
             <div className="flex justify-end">
-              <img
-                src="/images/Jogger-Women.png"
-                alt="Coffee maker"
+              <Image
+                width={100}
+                height={200}
+                src="/images/womansshorts.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>

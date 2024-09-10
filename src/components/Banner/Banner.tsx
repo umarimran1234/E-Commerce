@@ -20,10 +20,10 @@ const Banner: React.FC = () => {
   const getContent = () => {
     switch (activeTab) {
       case "Automobiles":
-        return "Latest trending Electronic items"; // Replace with actual content
+        return "Latest trending Electronic items";
       case "Clothes and wear":
         return "Trending fashion items";
-      // Add cases for other tabs
+
       default:
         return "No content available";
     }
@@ -51,8 +51,12 @@ const Banner: React.FC = () => {
 
         {/* Main Content Area */}
         <main className="w-full md:w-3/5 p-4">
-          <div className="p-6 rounded-lg bg-banner-image h-[20rem]">
-            <h2 className="text-xl bg-white font-semibold text-black w-fit p-2 rounded-xl">
+
+          <div
+            style={{ backgroundImage: "url('images/banner1.jpg') " }}
+            className=" p-6 rounded-lg bg-banner h-[20rem]"
+          >
+            <h2 className="text-xl font-semibold bg-white text-black w-fit p-2 rounded-xl">
               {getContent()}
             </h2>
             <button className="bg-white text-black p-2 mt-4 rounded-md">

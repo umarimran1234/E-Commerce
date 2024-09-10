@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const DealsSection = () => {
   return (
     <div className="bg-white p-6  container mx-auto ">
@@ -34,11 +34,15 @@ const DealsSection = () => {
         <div className="w-full h-[20rem]  lg:w-4/5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 ">
           {/* Product 1 */}
           <div className="bg-white  border-2 p-4 text-center">
-            <img
-              src="/images/Kurta.png"
-              alt="Smart watches"
-              className="mx-auto mb-4"
-            />
+            <div className="flex justify-center">
+              <Image
+                width={100}
+                height={200}
+                src="/images/womansshorts.jpg"
+                alt="Smart watches"
+                className=" mb-4"
+              />
+            </div>
             <p className="text-sm font-semibold">Smart watches</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
@@ -47,11 +51,15 @@ const DealsSection = () => {
 
           {/* Product 2 */}
           <div className="bg-white border-2 p-4 text-center">
-            <img
-              src="/images/T-Shirt.png"
-              alt="Laptops"
-              className="mx-auto mb-4"
-            />
+            <div className="flex justify-center">
+              <Image
+                width={100}
+                height={200}
+                src="/images/gentsimg2.jpg"
+                alt="Smart watches"
+                className=" mb-4"
+              />
+            </div>
             <p className="text-sm font-semibold">Laptops</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -15%
@@ -60,11 +68,15 @@ const DealsSection = () => {
 
           {/* Product 3 */}
           <div className="bg-white border-2 p-4 text-center">
-            <img
-              src="/images/Trouser.png"
-              alt="GoPro cameras"
-              className="mx-auto mb-4"
-            />
+            <div className="flex justify-center">
+              <Image
+                width={80}
+                height={200}
+                src="/images/womansJogers.jpg"
+                alt="Smart watches"
+                className=" mb-4"
+              />
+            </div>
             <p className="text-sm font-semibold">GoPro cameras</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -40%
@@ -73,11 +85,15 @@ const DealsSection = () => {
 
           {/* Product 4 */}
           <div className="bg-white border-2 p-4 text-center">
-            <img
-              src="/images/Shirt.png"
-              alt="Headphones"
-              className="mx-auto mb-4"
-            />
+            <div className="flex justify-center">
+              <Image
+                width={100}
+                height={200}
+                src="/images/womanspnats.jpg"
+                alt="Smart watches"
+                className=" mb-4"
+              />
+            </div>
             <p className="text-sm font-semibold">Headphones</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
@@ -86,11 +102,15 @@ const DealsSection = () => {
 
           {/* Product 5 */}
           <div className="bg-white border-2 p-4 text-center">
-            <img
-              src="/images/Shorts.png"
-              alt="Canon cameras"
-              className="mx-auto mb-4"
-            />
+            <div className="flex justify-center">
+              <Image
+                width={150}
+                height={200}
+                src="/images/womansTshirts.jpg"
+                alt="Smart watches"
+                className=" mb-4"
+              />
+            </div>
             <p className="text-sm font-semibold">Canon cameras</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Consumer = () => {
@@ -28,8 +29,11 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end  item-start">
-              <img
-                src="/images/Gym-Wear.png"
+
+              <Image
+                width={100}
+                height={200}
+                src="/images/mensshirts.jpg"
                 alt="Soft chairs"
                 className=" mb-4"
               />
@@ -43,8 +47,10 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Fragrances.png"
+              <Image
+                width={100}
+                height={200}
+                src="/images/menspents.jpg"
                 alt="Sofa & chair"
                 className=" mb-4 w-[100px] h-[100px]"
               />
@@ -58,8 +64,10 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Footwear.png"
+              <Image
+                width={100}
+                height={200}
+                src="/images/mensshorts.jpg"
                 alt="Kitchen dishes"
                 className=" mb-4"
               />
@@ -73,8 +81,10 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Kurta.png"
+              <Image
+                width={100}
+                height={200}
+                src="/images/gentsimg2.jpg"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -88,9 +98,11 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 100</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/T-Shirt.png"
-                alt="Kitchen mixer"
+              <Image
+                width={100}
+                height={200}
+                src="/images/joggerpentsboys.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -103,9 +115,11 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 39</p>
             </div>
             <div className="flex justify-end item-start">
-              <img
-                src="/images/Trouser.png"
-                alt="Blenders"
+              <Image
+                width={100}
+                height={200}
+                src="/images/menkurta.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -117,9 +131,11 @@ const Consumer = () => {
             <p className="text-sm font-semibold">Home appliance</p>
             <p className="text-xs text-gray-500">From USD 19</p>
             <div className="flex justify-end">
-              <img
-                src="/images/Shirt.png"
-                alt="Home appliance"
+              <Image
+                width={100}
+                height={200}
+                src="/images/womansTshirts.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
@@ -130,9 +146,11 @@ const Consumer = () => {
             <p className="text-sm font-semibold">Coffee maker</p>
             <p className="text-xs text-gray-500">From USD 10</p>
             <div className="flex justify-end">
-              <img
-                src="/images/Shorts.png"
-                alt="Coffee maker"
+              <Image
+                width={100}
+                height={200}
+                src="/images/mensshirts2.jpg"
+                alt="Smart watches"
                 className=" mb-4"
               />
             </div>
