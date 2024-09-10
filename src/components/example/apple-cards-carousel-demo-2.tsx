@@ -52,39 +52,39 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
+    category: "Kurta",
+    title: "Kurta for men.",
     src: "/images/menkurta.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Productivity",
-    title: "Enhance your productivity.",
+    category: "Jogger Pants",
+    title: "Jogger pants for men",
     src: "/images/joggerpentsboys.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Product",
-    title: "Launching the new Apple Vision Pro.",
+    category: "Shirt",
+    title: "Shirt for men",
     src: "/images/mensshirts2.jpg",
     content: <DummyContent />,
   },
 
   {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
+    category: "T-Shirt",
+    title: "T-Shirt for men",
     src: "/images/gentsimg1.jpg",
     content: <DummyContent />,
   },
   {
-    category: "iOS",
-    title: "Photography just got better.",
+    category: "Women's T-Shirt",
+    title: "T-Shirt for women",
     src: "/images/womansShirts.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Hiring",
-    title: "Hiring for a Staff Software Engineer",
+    category: "Woman's Jogger",
+    title: "Jogger for woman",
     src: "/images/womansJogers.jpg",
     content: <DummyContent />,
   },
