@@ -3,7 +3,7 @@ import { useState } from "react";
 import { MdAccountCircle } from "react-icons/md";
 
 const Banner: React.FC = () => {
-  const [activeTab, setActiveTab] = useState("Automobiles");
+  const [activeTab, setActiveTab] = useState("Mens");
 
   const tabs = [
     "Mens",

@@ -10,30 +10,29 @@ import Consumer from "../Consumer/consumer";
 import AppleCardsCarouselDemo from "../example/apple-cards-carousel-demo-2";
 import TimelineDemo from "../example/timeline-demo";
 import QuoteForm from "../QuoteForm/QuoteForm";
-import OpeningAnimation from "../OpeningAnimation/OpeningAnimation";
+import CircleAnimation from "../CircleAnimation/CircleAnimation"; // Import the CircleAnimation component
 
 export default function Main() {
-  const [showContent, setShowContent] = useState(false); // State to control when to show the main content
+  const [showContent, setShowContent] = useState(false);
 
-  // Run the opening animation for a specific duration before showing content
+  // Run the opening animation for 2 seconds before showing the main content
   useEffect(() => {
     const timer = setTimeout(() => {
-      setShowContent(true); // Show the content after 3 seconds (adjust this duration if needed)
-    }, 3000); // Duration of the animation
+      setShowContent(true);
+    }, 2000); // Animation runs for 2 seconds
 
-    return () => clearTimeout(timer); // Cleanup the timer
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <div>
-      {/* Show Opening Animation first */}
-      {!showContent && <OpeningAnimation />}
+      {/* Show Opening Animation */}
+      {!showContent && <CircleAnimation />}
 
-      {/* Show the rest of the content after animation completes */}
+      {/* Main content after animation */}
       {showContent && (
         <>
           <Navbar />
-
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -75,7 +74,6 @@ export default function Main() {
           <div>
             <TimelineDemo />
           </div>
-
           {/* <Subscribe /> */}
           <Footer />
         </>
