@@ -51,7 +51,6 @@ const Banner: React.FC = () => {
 
         {/* Main Content Area */}
         <main className="w-full md:w-3/5 p-4">
-
           <div
             style={{ backgroundImage: "url('images/banner1.jpg') " }}
             className=" p-6 rounded-lg bg-banner h-[20rem]"
@@ -81,10 +80,10 @@ const Banner: React.FC = () => {
             </div>
           </div>
           <div className="bg-[#F38332] text-white p-4 rounded-lg">
-            <p>Get US $10 off with a new supplier</p>
+            <p>Sign in today for latest updates</p>
           </div>
           <div className="bg-[#55BDC3] text-white p-4 rounded-lg">
-            <p>Send quotes with supplier preferences</p>
+            <p>we are here for you. </p>
           </div>
         </aside>
       </div>

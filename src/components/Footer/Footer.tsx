@@ -22,22 +22,22 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Web Development
+                  Home
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  App Development
+                  About us
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  SEO Optimization
+                  Contact us
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Graphic Design
+                  Shop
                 </a>
               </li>
             </ul>
@@ -135,10 +135,7 @@ const Footer = () => {
 
         {/* Lower Footer Section */}
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
-          <p>
-            &copy; {new Date().getFullYear()} Codesphare Innovations. All rights
-            reserved.
-          </p>
+          <p>&copy; {new Date().getFullYear()} One 88. All rights reserved.</p>
           <div className="space-x-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-white">
               Privacy Policy

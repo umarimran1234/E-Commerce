@@ -7,7 +7,7 @@ import HomeOutdoorSection from "@/components/HomeOutdoorSection/HomeOutdoorSecti
 import Navbar from "@/components/Navbar/Navbar";
 import Consumer from "../Consumer/consumer";
 import AppleCardsCarouselDemo from "../example/apple-cards-carousel-demo-2";
-import TimelineDemo from "../example/timeline-demo";
+// import TimelineDemo from "../example/timeline-demo";
 import QuoteForm from "../QuoteForm/QuoteForm";
 export default function Main() {
   // import Subscribe from "@/components/subscribe/subscribe";
@@ -51,10 +51,13 @@ export default function Main() {
       </motion.div>
 
       <AppleCardsCarouselDemo />
-      <QuoteForm></QuoteForm>
-      <div>
-        <TimelineDemo />
+      <div className="m-12">
+        <QuoteForm />
       </div>
+
+      {/* <div>
+        <TimelineDemo />
+      </div> */}
       {/* <Subscribe /> */}
       <Footer />
     </div>

@@ -35,12 +35,14 @@ const Navbar: React.FC = () => {
             <input
               type="text"
               placeholder="Search"
-              className="border border-[#0D6EFD] rounded-lg py-2 pl-4 pr-10 w-[18rem] md:w-[30rem] focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border border-[red] rounded-lg py-2 pl-4 pr-10 w-[18rem] md:w-[30rem] focus:outline-none focus:ring-2 focus:ring-red-500"
             />
-            <select className="absolute right-16 border-l-2 border-[#0D6EFD] top-1/2 transform -translate-y-1/2 text-[#1C1C1C] p-2 text-gray-500">
+            <select className="absolute right-16 border-l-2 border-[red] top-1/2 transform -translate-y-1/2 text-[#1C1C1C] p-2 text-gray-500">
               <option value="all">All category</option>
             </select>
-            <button className='absolute border-[#0D6EFD] right-0 rounded-r-lg text-white top-1/2 transform -translate-y-1/2 p-2 bg-[#0D6EFD]'>Search</button>
+            <button className="absolute border-[#0D6EFD] right-0 rounded-r-lg text-white top-1/2 transform -translate-y-1/2 p-2 bg-[red]">
+              Search
+            </button>
           </div>
 
           {/* Hamburger Icon */}
@@ -60,17 +62,26 @@ const Navbar: React.FC = () => {
               <MdAccountCircle className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">Profile</span>
             </Link>
-            <Link href="#" className="flex flex-col justify-center items-center">
+            {/* <Link
+              href="#"
+              className="flex flex-col justify-center items-center"
+            >
               <MdMessage className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">
                 Messages
               </span>
-            </Link>
-            <Link href="#" className="flex flex-col justify-center items-center">
+            </Link> */}
+            <Link
+              href="#"
+              className="flex flex-col justify-center items-center"
+            >
               <FaHeart className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">Orders</span>
             </Link>
-            <Link href="#" className="flex flex-col justify-center items-center">
+            <Link
+              href="#"
+              className="flex flex-col justify-center items-center"
+            >
               <FaCartShopping className="text-2xl" />
               <span className="text-gray-700 hover:text-blue-500">My Cart</span>
             </Link>
@@ -193,34 +204,37 @@ const Navbar: React.FC = () => {
         <div className="space-x-8 font-medium flex items-center mb-2">
           <Link href="#" className="flex items-center gap-1">
             <IoReorderThreeOutline className="font-bold text-xl" />
-            <span className="text-gray-700 hover:text-blue-500">All Category</span>
+            <select className="text-gray-700 hover:text-blue-500">
+              <option value="">All Category</option>
+              <option value="">Mens</option>
+              <option value="">Womans</option>
+            </select>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">Hot Offers</span>
+            <span className="text-gray-700 hover:text-blue-500">Home</span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">Gift Boxes</span>
+            <span className="text-gray-700 hover:text-blue-500">About us</span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">Projects</span>
+            <span className="text-gray-700 hover:text-blue-500">
+              Contact us
+            </span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">Menu Item</span>
+            <span className="text-gray-700 hover:text-blue-500">Shop</span>
           </Link>
-          <select>
-            <option value="all">Help</option>
-          </select>
         </div>
         {/* Language and Shipping */}
         <div className="flex items-center font-medium space-x-4">
           <select className="text-gray-700">
-            <option>English, USD</option>
+            <option>English,</option>
           </select>
-          <div>
+          {/* <div>
             <select className="text-gray-700">
               <option>Ship to</option>
             </select>
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>
