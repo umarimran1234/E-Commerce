@@ -9,14 +9,14 @@ const HomeOutdoorSection = () => {
         {/* Left Section - Background Image, Title, and Button */}
         <div
           id="backimg"
-          className="w-full lg:w-1/5  h-[24rem]  bg-cover bg-center p-4 "
+          className="w-full lg:w-1/5  h-[24.4rem]  bg-cover bg-center p-4 "
           style={{
-            backgroundImage: `url("/images/image 92.png")`,
+            backgroundImage: `url("/images/womens-Fashion.png")`,
           }}
         >
-          <h2 className="text-3xl font-bold mb-4">Home and outdoor</h2>
+          <h2 className="text-3xl text-white font-bold mb-4">For Womans</h2>
           <button className="bg-gray-800 text-white px-4 py-2 rounded-full font-bold">
-            Source now
+            Shop now
           </button>
         </div>
 
