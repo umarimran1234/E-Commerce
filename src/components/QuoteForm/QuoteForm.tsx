@@ -56,8 +56,8 @@ const QuoteForm: React.FC = () => {
             Sign In today for latest updates.
           </h1>
           <p className="mt-4 text-white lg:w-1/2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt.
+            Sign in for latest updates and stay tuned with us and get amazing
+            products.
           </p>
         </div>
         <form
