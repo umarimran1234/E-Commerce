@@ -54,7 +54,7 @@ const data = [
   {
     category: "Kurta",
     title: "Kurta for men.",
-    src: "/images/menkurta.jpg",
+    src: "/images/Kurta-Blue.png",
     content: <DummyContent />,
   },
   {
@@ -79,7 +79,7 @@ const data = [
   {
     category: "Women's T-Shirt",
     title: "T-Shirt for women",
-    src: "/images/womansShirts.jpg",
+    src: "/images/T-Shirt-Women.png",
     content: <DummyContent />,
   },
   {
