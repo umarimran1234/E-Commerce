@@ -26,7 +26,7 @@ const HomeOutdoorSection = () => {
           <div className="bg-white border-2   p-4 text-start">
             <div className="">
               <p className="text-sm font-semibold">Trouser</p>
-              <p className="text-xs text-gray-500">From USD 19</p>
+              <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end  item-start">
               <Image
@@ -43,7 +43,7 @@ const HomeOutdoorSection = () => {
           <div className="bg-white border-2  p-4 text-start">
             <div>
               <p className="text-sm font-semibold">Womans Shirt</p>
-              <p className="text-xs text-gray-500">From USD 19</p>
+              <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
               <Image
@@ -60,7 +60,7 @@ const HomeOutdoorSection = () => {
           <div className="bg-white border-2 p-4 text-start">
             <div className="mb-2">
               <p className="text-sm font-semibold">T-Shirt</p>
-              <p className="text-xs text-gray-500">From USD 19</p>
+              <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
               <Image
@@ -77,7 +77,7 @@ const HomeOutdoorSection = () => {
           <div className="bg-white border-2 p-4 tex-start">
             <div>
               <p className="text-sm font-semibold">Shirt</p>
-              <p className="text-xs text-gray-500">From USD 19</p>
+              <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
               <Image
@@ -94,7 +94,7 @@ const HomeOutdoorSection = () => {
           <div className="bg-white border-2 p-4 text-start">
             <div>
               <p className="text-sm font-semibold">Kurta</p>
-              <p className="text-xs text-gray-500">From USD 100</p>
+              <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
               <Image
@@ -111,7 +111,7 @@ const HomeOutdoorSection = () => {
           <div className="bg-white border-2 p-4 text-start">
             <div>
               <p className="text-sm font-semibold">Womans Shirt</p>
-              <p className="text-xs text-gray-500">From USD 39</p>
+              <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
               <Image
@@ -128,7 +128,7 @@ const HomeOutdoorSection = () => {
 
           <div className="bg-white border-2 p-4 text-start">
             <p className="text-sm font-semibold">Jogger Pant</p>
-            <p className="text-xs text-gray-500">From USD 19</p>
+            <p className="text-xs text-gray-500"></p>
             <div className="flex justify-end">
               <Image
                 width={100}
@@ -143,7 +143,7 @@ const HomeOutdoorSection = () => {
           {/* Product 8 */}
           <div className="bg-white border-2 p-4 text-start">
             <p className="text-sm font-semibold">Womans Shorts</p>
-            <p className="text-xs text-gray-500">From USD 10</p>
+            <p className="text-xs text-gray-500"></p>
             <div className="flex justify-end">
               <Image
                 width={100}
