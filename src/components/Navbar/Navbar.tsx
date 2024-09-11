@@ -46,11 +46,6 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Hamburger Icon */}
-          <div className="lg:hidden">
-            <button onClick={handleMenuToggle}>
-              <IoReorderThreeOutline className="text-3xl text-gray-700" />
-            </button>
-          </div>
 
           {/* Right Side Icons - hidden on smaller devices */}
 
