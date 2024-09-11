@@ -25,14 +25,14 @@ const Consumer = () => {
           {/* Product 1 */}
           <div className="bg-white border-2   p-4 text-start">
             <div className="">
-              <p className="text-sm font-semibold">Soft chairs</p>
+              <p className="text-sm font-semibold">Men's Shirt</p>
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end  item-start">
               <Image
                 width={100}
                 height={200}
-                src="/images/mensshirts.jpg"
+                src="/images/Shirt.png"
                 alt="Soft chairs"
                 className=" mb-4"
               />
@@ -42,16 +42,16 @@ const Consumer = () => {
           {/* Product 2 */}
           <div className="bg-white border-2  p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Sofa & chair</p>
+              <p className="text-sm font-semibold">Pant</p>
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
               <Image
                 width={100}
                 height={200}
-                src="/images/menspents.jpg"
+                src="/images/Pant.png"
                 alt="Sofa & chair"
-                className=" mb-4 w-[100px] h-[100px]"
+                className="mb-4"
               />
             </div>
           </div>
@@ -59,14 +59,14 @@ const Consumer = () => {
           {/* Product 3 */}
           <div className="bg-white border-2 p-4 text-start">
             <div className="mb-2">
-              <p className="text-sm font-semibold">Kitchen dishes</p>
+              <p className="text-sm font-semibold">Men's Shorts</p>
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
               <Image
                 width={100}
                 height={200}
-                src="/images/mensshorts.jpg"
+                src="/images/Shorts.png"
                 alt="Kitchen dishes"
                 className=" mb-4"
               />
@@ -76,14 +76,14 @@ const Consumer = () => {
           {/* Product 4 */}
           <div className="bg-white border-2 p-4 tex-start">
             <div>
-              <p className="text-sm font-semibold">Smart watches</p>
+              <p className="text-sm font-semibold">Trouser</p>
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
               <Image
                 width={100}
                 height={200}
-                src="/images/gentsimg2.jpg"
+                src="/images/Trouser.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -93,14 +93,14 @@ const Consumer = () => {
           {/* Product 5 */}
           <div className="bg-white border-2 p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Kitchen mixer</p>
+              <p className="text-sm font-semibold">Jogger Pant</p>
               <p className="text-xs text-gray-500">From USD 100</p>
             </div>
             <div className="flex justify-end item-start">
               <Image
                 width={100}
                 height={200}
-                src="/images/joggerpentsboys.jpg"
+                src="/images/Jogger.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -110,14 +110,14 @@ const Consumer = () => {
           {/* Product 6 */}
           <div className="bg-white border-2 p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Blenders</p>
+              <p className="text-sm font-semibold">Kurta</p>
               <p className="text-xs text-gray-500">From USD 39</p>
             </div>
             <div className="flex justify-end item-start">
               <Image
                 width={100}
                 height={200}
-                src="/images/menkurta.jpg"
+                src="/images/Kurta-Gray.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -127,13 +127,13 @@ const Consumer = () => {
           {/* Product 7 */}
 
           <div className="bg-white border-2 p-4 text-start">
-            <p className="text-sm font-semibold">Home appliance</p>
+            <p className="text-sm font-semibold">Woman's T-Shirt</p>
             <p className="text-xs text-gray-500">From USD 19</p>
             <div className="flex justify-end">
               <Image
                 width={100}
                 height={200}
-                src="/images/womansTshirts.jpg"
+                src="/images/Women-T-Shirt.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -142,13 +142,13 @@ const Consumer = () => {
 
           {/* Product 8 */}
           <div className="bg-white border-2 p-4 text-start">
-            <p className="text-sm font-semibold">Coffee maker</p>
+            <p className="text-sm font-semibold">Shirt</p>
             <p className="text-xs text-gray-500">From USD 10</p>
             <div className="flex justify-end">
               <Image
                 width={100}
                 height={200}
-                src="/images/mensshirts2.jpg"
+                src="/images/Shirt.png"
                 alt="Smart watches"
                 className=" mb-4"
               />

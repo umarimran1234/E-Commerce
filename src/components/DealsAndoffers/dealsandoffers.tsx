@@ -38,12 +38,12 @@ const DealsSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/womansShirts.jpg"
+                src="/images/Women-Shorts.png"
                 alt="Smart watches"
-                className=" mb-4"
+                className="mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Smart watches</p>
+            <p className="text-sm font-semibold">{"Women's Shorts"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
             </span>
@@ -55,12 +55,12 @@ const DealsSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/gentsimg2.jpg"
+                src="/images/Trouser.png"
                 alt="Smart watches"
-                className=" mb-4"
+                className="mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Laptops</p>
+            <p className="text-sm font-semibold">Trouser</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -15%
             </span>
@@ -70,14 +70,14 @@ const DealsSection = () => {
           <div className="bg-white border-2 p-4 text-center">
             <div className="flex justify-center">
               <Image
-                width={80}
+                width={100}
                 height={200}
-                src="/images/womansJogers.jpg"
+                src="/images/Women-Jogger.png"
                 alt="Smart watches"
-                className=" mb-4"
+                className="mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">GoPro cameras</p>
+            <p className="text-sm font-semibold">{"Women's Joggers"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -40%
             </span>
@@ -89,12 +89,12 @@ const DealsSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/womanspnats.jpg"
+                src="/images/Women-Pant.png"
                 alt="Smart watches"
-                className=" mb-4"
+                className="mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Headphones</p>
+            <p className="text-sm font-semibold">{"Women's Pants"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
             </span>
@@ -104,14 +104,14 @@ const DealsSection = () => {
           <div className="bg-white border-2 p-4 text-center">
             <div className="flex justify-center">
               <Image
-                width={150}
+                width={100}
                 height={200}
-                src="/images/womansTshirts.jpg"
+                src="/images/Women-T-Shirt.png"
                 alt="Smart watches"
-                className=" mb-4"
+                className="mb-4"
               />
             </div>
-            <p className="text-sm font-semibold">Canon cameras</p>
+            <p className="text-sm font-semibold">{"Women's T-Shirt"}</p>
             <span className="block bg-red-100 text-red-500 text-sm font-bold py-1 px-3 rounded-full mx-auto mt-2">
               -25%
             </span>

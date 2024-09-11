@@ -52,40 +52,40 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Mens",
-    title: " New Style Mens Kurta.",
-    src: "/images/menkurta.jpg",
+    category: "Kurta",
+    title: "Kurta for men.",
+    src: "/images/Kurta-Blue.png",
     content: <DummyContent />,
   },
   {
-    category: "Mens",
-    title: "Trouser for mens.",
-    src: "/images/joggerpentsboys.jpg",
+    category: "Jogger Pants",
+    title: "Jogger pants for men",
+    src: "/images/Jogger.png",
     content: <DummyContent />,
   },
   {
-    category: "Mens",
-    title: "Shirts for offices and meetings.",
-    src: "/images/mensshirts2.jpg",
+    category: "Shirt",
+    title: "Shirt for men",
+    src: "/images/Shirt.png",
     content: <DummyContent />,
   },
 
   {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
-    src: "/images/gentsimg1.jpg",
+    category: "T-Shirt",
+    title: "T-Shirt for men",
+    src: "/images/T-Shirt.png",
     content: <DummyContent />,
   },
   {
-    category: "iOS",
-    title: "Photography just got better.",
-    src: "/images/womansTshirts.jpg",
+    category: "Women's T-Shirt",
+    title: "T-Shirt for women",
+    src: "/images/Women-T-Shirt.png",
     content: <DummyContent />,
   },
   {
-    category: "Hiring",
-    title: "Hiring for a Staff Software Engineer",
-    src: "/images/womansJogers.jpg",
+    category: "Woman's Jogger",
+    title: "Jogger for woman",
+    src: "/images/Women-Jogger.png",
     content: <DummyContent />,
   },
 ];
