@@ -33,7 +33,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/mensshirts.jpg"
+                src="/images/Shirt.png"
                 alt="Soft chairs"
                 className=" mb-4"
               />
@@ -52,7 +52,7 @@ const Consumer = () => {
                 height={200}
                 src="/images/Pant.png"
                 alt="Sofa & chair"
-                className=" mb-4 w-[100px] h-[100px]"
+                className="mb-4"
               />
             </div>
           </div>
@@ -67,7 +67,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/mensshorts.jpg"
+                src="/images/Shorts.png"
                 alt="Kitchen dishes"
                 className=" mb-4"
               />
@@ -101,7 +101,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/joggerpentsboys.jpg"
+                src="/images/Jogger.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -134,7 +134,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/womansTshirts.jpg"
+                src="/images/Women-T-Shirt.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -149,7 +149,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/mensshirts2.jpg"
+                src="/images/Shirt.png"
                 alt="Smart watches"
                 className=" mb-4"
               />

@@ -60,32 +60,32 @@ const data = [
   {
     category: "Jogger Pants",
     title: "Jogger pants for men",
-    src: "/images/joggerpentsboys.jpg",
+    src: "/images/Jogger.png",
     content: <DummyContent />,
   },
   {
     category: "Shirt",
     title: "Shirt for men",
-    src: "/images/mensshirts2.jpg",
+    src: "/images/Shirt.png",
     content: <DummyContent />,
   },
 
   {
     category: "T-Shirt",
     title: "T-Shirt for men",
-    src: "/images/gentsimg1.jpg",
+    src: "/images/T-Shirt.png",
     content: <DummyContent />,
   },
   {
     category: "Women's T-Shirt",
     title: "T-Shirt for women",
-    src: "/images/T-Shirt-Women.png",
+    src: "/images/Women-T-Shirt.png",
     content: <DummyContent />,
   },
   {
     category: "Woman's Jogger",
     title: "Jogger for woman",
-    src: "/images/womansJogers.jpg",
+    src: "/images/Women-Jogger.png",
     content: <DummyContent />,
   },
 ];

@@ -66,7 +66,7 @@ const HomeOutdoorSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/gentsimg1.jpg"
+                src="/images/T-Shirt.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -83,7 +83,7 @@ const HomeOutdoorSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/mensshirts2.jpg"
+                src="/images/Shirt.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -131,9 +131,9 @@ const HomeOutdoorSection = () => {
             <p className="text-xs text-gray-500">From USD 19</p>
             <div className="flex justify-end">
               <Image
-                width={70}
+                width={100}
                 height={200}
-                src="/images/joggerpentsboys.jpg"
+                src="/images/Jogger.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -148,7 +148,7 @@ const HomeOutdoorSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/womansshorts.jpg"
+                src="/images/Women-Shorts.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
