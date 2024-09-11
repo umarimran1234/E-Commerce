@@ -11,7 +11,7 @@ const HomeOutdoorSection = () => {
           id="backimg"
           className="w-full lg:w-1/5  h-[24.4rem]  bg-cover bg-center p-4 "
           style={{
-            backgroundImage: `url("/images/womens-Fashion.png")`,
+            backgroundImage: `url("images/womens-Fashion.png")`,
           }}
         >
           <h2 className="text-3xl text-white font-bold mb-4">For Womans</h2>
