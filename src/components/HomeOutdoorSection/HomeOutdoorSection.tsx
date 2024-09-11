@@ -42,7 +42,7 @@ const HomeOutdoorSection = () => {
           {/* Product 2 */}
           <div className="bg-white border-2  p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Women's Shirt</p>
+              <p className="text-sm font-semibold">Womans Shirt</p>
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end item-start">
@@ -110,7 +110,7 @@ const HomeOutdoorSection = () => {
           {/* Product 6 */}
           <div className="bg-white border-2 p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Women's Shirt</p>
+              <p className="text-sm font-semibold">Womans Shirt</p>
               <p className="text-xs text-gray-500">From USD 39</p>
             </div>
             <div className="flex justify-end item-start">
@@ -142,7 +142,7 @@ const HomeOutdoorSection = () => {
 
           {/* Product 8 */}
           <div className="bg-white border-2 p-4 text-start">
-            <p className="text-sm font-semibold">Women's Shorts</p>
+            <p className="text-sm font-semibold">Womans Shorts</p>
             <p className="text-xs text-gray-500">From USD 10</p>
             <div className="flex justify-end">
               <Image
