@@ -5,11 +5,7 @@ import { MdAccountCircle } from "react-icons/md";
 const Banner: React.FC = () => {
   const [activeTab, setActiveTab] = useState("Mens");
 
-  const tabs = [
-    "Mens",
-    "Clothes and wear",
-    "Womens",
-  ];
+  const tabs = ["Mens", "Clothes and wear", "Womens"];
 
   const getContent = () => {
     switch (activeTab) {
@@ -18,7 +14,7 @@ const Banner: React.FC = () => {
       case "Clothes and wear":
         return "Trending fashion items";
       case "Womens":
-        return "Women's cloths here"
+        return "Women's cloths here";
 
       default:
         return "No content available";
@@ -34,8 +30,9 @@ const Banner: React.FC = () => {
             {tabs.map((tab) => (
               <li
                 key={tab}
-                className={`cursor-pointer p-2 ${activeTab === tab ? "bg-blue-200 font-medium rounded-lg" : ""
-                  }`}
+                className={`cursor-pointer p-2 ${
+                  activeTab === tab ? "bg-blue-200 font-medium rounded-lg" : ""
+                }`}
                 onClick={() => setActiveTab(tab)}
               >
                 {tab}
@@ -47,7 +44,11 @@ const Banner: React.FC = () => {
         {/* Main Content Area */}
         <main className="w-full md:w-3/5 p-4">
           <div
-            className={`p-6 rounded-lg h-[20rem] ${activeTab === "Mens" && "bg-mens-fashion"} ${activeTab === "Clothes and wear" && "bg-clothes"} ${activeTab === "Womens" && "bg-womens-fashion"}`}
+            className={`p-6 rounded-lg h-[20rem] ${
+              activeTab === "Mens" && "bg-mens-fashion"
+            } ${activeTab === "Clothes and wear" && "bg-clothes"} ${
+              activeTab === "Womens" && "bg-womens-fashion"
+            }`}
           >
             <h2 className="text-xl font-semibold bg-white text-black w-fit p-2 rounded-xl">
               {getContent()}
@@ -65,7 +66,7 @@ const Banner: React.FC = () => {
               <MdAccountCircle className="text-4xl" /> Hi, user lets get started
             </h3>
             <div className="flex flex-col">
-              <button className="bg-[#127FFF] font-medimum text-white py-2 px-4 rounded-md mt-2">
+              <button className="bg-[red] font-medimum text-white py-2 px-4 rounded-md mt-2">
                 Join now
               </button>
               <button className="bg-white text-[#0D6EFD] font-medium py-2 px-4 rounded-md mt-2">

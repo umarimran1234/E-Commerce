@@ -52,20 +52,20 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
+    category: "Mens",
+    title: " New Style Mens Kurta.",
     src: "/images/menkurta.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Productivity",
-    title: "Enhance your productivity.",
+    category: "Mens",
+    title: "Trouser for mens.",
     src: "/images/joggerpentsboys.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Product",
-    title: "Launching the new Apple Vision Pro.",
+    category: "Mens",
+    title: "Shirts for offices and meetings.",
     src: "/images/mensshirts2.jpg",
     content: <DummyContent />,
   },
@@ -79,7 +79,7 @@ const data = [
   {
     category: "iOS",
     title: "Photography just got better.",
-    src: "/images/womansShirts.jpg",
+    src: "/images/womansTshirts.jpg",
     content: <DummyContent />,
   },
   {

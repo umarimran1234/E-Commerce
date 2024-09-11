@@ -9,14 +9,14 @@ const Consumer = () => {
         {/* Left Section - Background Image, Title, and Button */}
         <div
           id="backimg"
-          className="w-full lg:w-1/5  h-[24rem]  bg-cover bg-center p-4 "
+          className="w-full lg:w-1/5 flex-col h-[26.8rem]  bg-cover bg-center p-4 "
           style={{
-            backgroundImage: `url("/images/image 98.png")`,
+            backgroundImage: `url("/images/Mens-Fashion.png")`,
           }}
         >
-          <h2 className="text-3xl font-bold mb-4">Home and outdoor</h2>
+          <h2 className="text-3xl text-white font-bold mb-4">For mans</h2>
           <button className="bg-gray-800 text-white px-4 py-2 rounded-full font-bold">
-            Source now
+            Shop now
           </button>
         </div>
 
@@ -29,7 +29,6 @@ const Consumer = () => {
               <p className="text-xs text-gray-500">From USD 19</p>
             </div>
             <div className="flex justify-end  item-start">
-
               <Image
                 width={100}
                 height={200}

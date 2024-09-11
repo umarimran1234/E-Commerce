@@ -67,7 +67,7 @@ const QuoteForm: React.FC = () => {
           <div className="flex flex-col gap-4">
             <div className="text-center">
               <h3 className="text-black font-bold text-xl mb-4">SIGN UP </h3>
-              <div className="flex 1">
+              <div className="flex-1 text-start">
                 <label
                   htmlFor="details"
                   className="block p-2 font-bold text-gray-700"

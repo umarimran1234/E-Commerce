@@ -38,7 +38,7 @@ const DealsSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/womansshorts.jpg"
+                src="/images/womansShirts.jpg"
                 alt="Smart watches"
                 className=" mb-4"
               />
