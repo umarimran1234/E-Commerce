@@ -29,7 +29,7 @@ const DummyContent = () => {
           >
             <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700">
-                We have a amazing items for mens and also for womans.
+                We have a amazing items for mens and also New Fashion .
               </span>{" "}
               Explore new fashion .
             </p>
