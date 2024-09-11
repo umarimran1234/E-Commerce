@@ -50,7 +50,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/menspents.jpg"
+                src="/images/Pant.png"
                 alt="Sofa & chair"
                 className=" mb-4 w-[100px] h-[100px]"
               />
@@ -84,7 +84,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/gentsimg2.jpg"
+                src="/images/Trouser.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -118,7 +118,7 @@ const Consumer = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/menkurta.jpg"
+                src="/images/Kurta-Gray.png"
                 alt="Smart watches"
                 className=" mb-4"
               />

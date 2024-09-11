@@ -55,9 +55,9 @@ const DealsSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/gentsimg2.jpg"
+                src="/images/Trouser.png"
                 alt="Smart watches"
-                className=" mb-4"
+                className="w-[100px] h-[100px] mb-4"
               />
             </div>
             <p className="text-sm font-semibold">Trouser</p>

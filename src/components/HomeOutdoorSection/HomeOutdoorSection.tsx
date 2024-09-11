@@ -32,7 +32,7 @@ const HomeOutdoorSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/gentsimg2.jpg"
+                src="/images/Trouser.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -49,7 +49,7 @@ const HomeOutdoorSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/womansShirts.jpg"
+                src="/images/Womens-Shirt.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -100,7 +100,7 @@ const HomeOutdoorSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/menkurta.jpg"
+                src="/images/Kurta.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
@@ -117,7 +117,7 @@ const HomeOutdoorSection = () => {
               <Image
                 width={100}
                 height={200}
-                src="/images/womansShirts.jpg"
+                src="/images/Womens-Shirt-White.png"
                 alt="Smart watches"
                 className=" mb-4"
               />
