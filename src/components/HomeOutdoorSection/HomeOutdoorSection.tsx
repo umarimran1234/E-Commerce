@@ -14,7 +14,7 @@ const HomeOutdoorSection = () => {
             backgroundImage: `url("/images/Womans-Fashion.png")`,
           }}
         >
-          <h2 className="text-3xl text-white font-bold mb-4">For Womans</h2>
+          <h2 className="text-3xl text-black font-bold mb-4 ">For Womans</h2>
           <button className="bg-gray-800 text-white px-4 py-2 rounded-full font-bold">
             Shop now
           </button>
