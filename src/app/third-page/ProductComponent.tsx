@@ -44,12 +44,12 @@ const ProductComponent: React.FC = () => {
         warranty: '2 years full warranty',
         supplier: { name: 'Guanjoi Trading LLC', location: 'Germany, Berlin' },
         images: [
-            'https://picsum.photos/380',
-            'https://picsum.photos/380',
-            'https://picsum.photos/380',
-            'https://picsum.photos/380',
-            'https://picsum.photos/380',
-            'https://picsum.photos/380',
+            '/images/FirstShirt.png',
+            '/images/SecondShirt.png',
+            '/images/ThirdShirt.png',
+            '/images/FourthShirt.png',
+            '/images/FifthShirt.png',
+            '/images/SixthShirt.png',
         ],
     };
 
@@ -65,7 +65,7 @@ const ProductComponent: React.FC = () => {
                                 key={idx}
                                 src={img}
                                 alt={`Product thumbnail ${idx + 1}`}
-                                className={`cursor-pointehttps://picsum.photos/380] hover:opacity-80 ${selectedImage === idx ? 'border-2 rounded-lg border-gray-600' : 'rounded-lg'}`}
+                                className={`cursor-pointehttps://picsum.photos/380] hover:opacity-80 ${selectedImage === idx ? 'border-2 h-[98px] rounded-lg border-gray-600' : 'rounded-lg h-[98px]'}`}
                                 onClick={() => setSelectedImage(idx)}
                             />
                         ))}

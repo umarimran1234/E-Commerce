@@ -8,11 +8,11 @@ type Product = {
 };
 
 const relatedProducts: Product[] = [
-    { id: 1, name: 'Xiaomi Redmi 8 Original', priceRange: '$32.00–$40.00', imageUrl: 'https://picsum.photos/128' },
-    { id: 2, name: 'Xiaomi Redmi 8 Original', priceRange: '$32.00–$40.00', imageUrl: 'https://picsum.photos/128' },
-    { id: 3, name: 'Xiaomi Redmi 8 Original', priceRange: '$32.00–$40.00', imageUrl: 'https://picsum.photos/128' },
-    { id: 4, name: 'Xiaomi Redmi 8 Original', priceRange: '$32.00–$40.00', imageUrl: 'https://picsum.photos/128' },
-    { id: 5, name: 'Xiaomi Redmi 8 Original', priceRange: '$32.00–$40.00', imageUrl: 'https://picsum.photos/128' },
+    { id: 1, name: 'Long Sleeve T-shirt', priceRange: '$32.00–$40.00', imageUrl: '/images/FirstShirt.png' },
+    { id: 2, name: 'Long Sleeve T-shirt', priceRange: '$32.00–$40.00', imageUrl: '/images/SecondShirt.png' },
+    { id: 3, name: 'Long Sleeve T-shirt', priceRange: '$32.00–$40.00', imageUrl: '/images/ThirdShirt.png' },
+    { id: 4, name: 'Long Sleeve T-shirt', priceRange: '$32.00–$40.00', imageUrl: '/images/FourthShirt.png' },
+    { id: 5, name: 'Long Sleeve T-shirt', priceRange: '$32.00–$40.00', imageUrl: '/images/FifthShirt.png' },
 ];
 
 const RelatedProducts: React.FC = () => {
