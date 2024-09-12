@@ -49,7 +49,7 @@ const QuoteForm: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto mt-[2rem]">
+    <div className="container mb-10 mx-auto mt-[2rem]">
       <div className="bg-gradient-to-r from-[#FF0000] to-[black] flex md:flex-row flex-col justify-center lg:gap-0 gap-8 md:gap-4 text-white rounded-lg py-8 px-8">
         <div>
           <h1 className="text-3xl lg:w-1/2 font-semibold">
