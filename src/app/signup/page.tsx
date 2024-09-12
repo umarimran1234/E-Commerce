@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import FormComponent from "@/components/Form/FormComponent";
 import SocialButton from "@/components/SocialButton/SocialButton";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
     title: "Sign Up Page | Free Next.js Template for Startup and SaaS",
@@ -46,6 +47,7 @@ const SignupPage = () => {
                     </div>
                 </div>
             </section>
+            <Footer></Footer>
         </>
     );
 };
