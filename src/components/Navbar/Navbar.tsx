@@ -25,8 +25,8 @@ const Navbar: React.FC = () => {
               width={100}
               height={100}
               alt="Website logo"
-              src="/images/E-CommerceLogo-1.png"
-              className="w-24 h-auto md:w-36" // Ensure logo resizes properly
+              src="/images/E-CommerceLogo-1.jpg"
+              className="w-24 rounded-lg h-[60px] md:w-36" // Ensure logo resizes properly
             />
           </Link>
 
