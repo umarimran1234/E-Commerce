@@ -13,24 +13,24 @@ interface ProductProps {
 
 const products = [
     {
-        name: 'Canon Cmera EOS 2000, Black 10x zoom',
-        image: 'https://picsum.photos/300/300',
+        name: 'Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle',
+        image: '/images/FirstShirt.png',
         price: 998,
         rating: 7.5,
         orders: 154,
         description: 'Lorem ipsum dolor sit amet...',
     },
     {
-        name: 'Canon Cmera EOS 2000, Black 10x zoom',
-        image: 'https://picsum.photos/300/300',
+        name: 'Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle',
+        image: '/images/SecondShirt.png',
         price: 998,
         rating: 7.5,
         orders: 154,
         description: 'Lorem ipsum dolor sit amet...',
     },
     {
-        name: 'Canon Cmera EOS 2000, Black 10x zoom',
-        image: 'https://picsum.photos/300/300',
+        name: 'Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle',
+        image: '/images/ThirdShirt.png',
         price: 998,
         rating: 7.5,
         orders: 154,
