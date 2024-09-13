@@ -32,9 +32,9 @@ const ProductComponent: React.FC = () => {
     reviews: 32,
     sold: 154,
     priceTiers: [
-      { range: "50-100 pcs", price: "98.00" },
-      { range: "100-700 pcs", price: "90.00" },
-      { range: "700+ pcs", price: "78.00" },
+      { range: "50-100 pcs", price: "$98.00" },
+      { range: "100-700 pcs", price: "$90.00" },
+      { range: "700+ pcs", price: "$78.00" },
     ],
     type: "Classic shoes",
     material: "Plastic material",
@@ -44,32 +44,36 @@ const ProductComponent: React.FC = () => {
     warranty: "2 years full warranty",
     supplier: { name: "Guanjoi Trading LLC", location: "Germany, Berlin" },
     images: [
-      "https://picsum.photos/380",
-      "https://picsum.photos/380",
-      "https://picsum.photos/380",
-      "https://picsum.photos/380",
-      "https://picsum.photos/380",
-      "https://picsum.photos/380",
+      "/images/FirstShirt.png",
+      "/images/SecondShirt.png",
+      "/images/ThirdShirt.png",
+      "/images/FourthShirt.png",
+      "/images/FifthShirt.png",
+      "/images/SixthShirt.png",
     ],
   };
 
   return (
     <div className="container mx-auto mt-10">
-      <div className="grid border-gray-900 p-4 border-2 rounded-lg grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid border-gray-200 p-4 border-2 rounded-lg grid-cols-1 md:grid-cols-2 gap-4">
         {/* Left section: Image */}
         <div className="space-y-4">
           <img
             src={product.images[selectedImage]}
             alt="Product"
-            className="w-[380px] object-cover h-[380px] mx-auto border-2 border-gray-900 p-2 rounded-lg"
+            className="w-[380px] object-cover h-[380px] mx-auto border-2 border-gray-200 p-2 rounded-lg"
           />
           <div className="grid grid-cols-6 gap-2">
             {product.images.map((img, idx) => (
               <img
                 key={idx}
                 src={img}
-                alt={`Product thumbnail {idx + 1}`}
-                className={`cursor-pointehttps://picsum.photos/380] hover:opacity-80 {selectedImage === idx ? 'border-2 rounded-lg border-gray-600' : 'rounded-lg'}`}
+                alt={`Product thumbnail ${idx + 1}`}
+                className={`cursor-pointehttps://picsum.photos/380] hover:opacity-80 ${
+                  selectedImage === idx
+                    ? "border-2 h-[98px] rounded-lg border-gray-600"
+                    : "rounded-lg h-[98px]"
+                }`}
                 onClick={() => setSelectedImage(idx)}
               />
             ))}
@@ -107,7 +111,7 @@ const ProductComponent: React.FC = () => {
                   </div>
                 ))}
               </div>
-              <div className="flex border-b-2 border-gray-900 pb-2 gap-20 items-center">
+              <div className="flex border-b-2 border-gray-200 pb-2 gap-20 items-center">
                 <span className="text-gray-500">Price:</span>{" "}
                 <span className="text-gray-600">Negotiable</span>
               </div>
@@ -123,7 +127,7 @@ const ProductComponent: React.FC = () => {
               <span className="text-gray-600">{product.material}</span>
             </div>
 
-            <div className="flex pb-2 border-b-2 border-gray-900 gap-16 mt-2 items-center">
+            <div className="flex pb-2 border-b-2 border-gray-200 gap-16 mt-2 items-center">
               <div className="text-gray-500">Design:</div>
               <span className="text-gray-600">{product.design}</span>
             </div>
@@ -138,16 +142,16 @@ const ProductComponent: React.FC = () => {
               <span className="text-gray-600">{product.protection}</span>
             </div>
 
-            <div className="flex pb-2 border-b-2 border-gray-900 gap-12 mt-2 items-center">
+            <div className="flex pb-2 border-b-2 border-gray-200 gap-12 mt-2 items-center">
               <div className="text-gray-500">Warranty:</div>
               <span className="text-gray-600">{product.warranty}</span>
             </div>
           </div>
 
-          <div className="lg:w-1/2 md:w-full border-gray-900 border-2 h-fit p-2 rounded-lg">
+          <div className="lg:w-1/2 md:w-full boder-gray-200 border-2 h-fit p-2 rounded-lg">
             <div className="flex flex-col">
-              <div className="font-semibold text-white ">Supplier</div>
-              <span className="pb-2 border-b-2 text-white border-gray-900">
+              <div className="font-semibold">Supplier</div>
+              <span className="pb-2 border-b-2 border-gray-200">
                 {product.supplier.name}
               </span>
               <span className="mt-2 text-gray-500">
@@ -165,8 +169,8 @@ const ProductComponent: React.FC = () => {
               <button className="bg-blue-500 text-white px-4 py-1 font-semibold rounded">
                 Send inquiry
               </button>
-              <button className="border-2 border-gray-900 text-[#0D6EFD] font-medium px-4 py-1 rounded">
-                Sellers profile
+              <button className="border-2 border-gray-200 text-[#0D6EFD] font-medium px-4 py-1 rounded">
+                Seller profile
               </button>
             </div>
           </div>
@@ -175,5 +179,4 @@ const ProductComponent: React.FC = () => {
     </div>
   );
 };
-
 export default ProductComponent;
