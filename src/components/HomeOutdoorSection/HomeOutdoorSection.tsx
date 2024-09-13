@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeOutdoorSection = () => {
   return (
-    <div className="bg-white mt-[22rem] lg:mt-[2rem] border-2 border-gray-300">
+    <div className="bg-black mt-[22rem] lg:mt-[2rem] border-gray-800 border-2 border-gray-300">
       {/* Main Container */}
       <div className="flex flex-col lg:flex-row items-start space-y-6 lg:space-y-0 ">
         {/* Left Section - Background Image, Title, and Button */}
@@ -23,9 +23,9 @@ const HomeOutdoorSection = () => {
         {/* Right Section - Products Grid */}
         <div className="w-full lg:w-4/5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
           {/* Product 1 */}
-          <div className="bg-white border-2   p-4 text-start">
+          <div className="bg-black   border-l-2 border-b-2 border-gray-800   p-4 text-start">
             <div className="">
-              <p className="text-sm font-semibold">Trouser</p>
+              <p className="text-lg text-white font-semibold">Trouser</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end  item-start">
@@ -40,9 +40,9 @@ const HomeOutdoorSection = () => {
           </div>
 
           {/* Product 2 */}
-          <div className="bg-white border-2  p-4 text-start">
+          <div className="bg-black border-l-2 border-b-2 border-gray-800  p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Womans Shirt</p>
+              <p className="text-md  text-white font-semibold">Womans Shirt</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -57,9 +57,9 @@ const HomeOutdoorSection = () => {
           </div>
 
           {/* Product 3 */}
-          <div className="bg-white border-2 p-4 text-start">
+          <div className="bg-black border-l-2 border-b-2 border-gray-800 p-4 text-start">
             <div className="mb-2">
-              <p className="text-sm font-semibold">T-Shirt</p>
+              <p className="text-md text-white font-semibold">T-Shirt</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -74,9 +74,9 @@ const HomeOutdoorSection = () => {
           </div>
 
           {/* Product 4 */}
-          <div className="bg-white border-2 p-4 tex-start">
+          <div className="bg-black border-l-2 border-b-2 border-gray-800 p-4 tex-start">
             <div>
-              <p className="text-sm font-semibold">Shirt</p>
+              <p className="text-md text-white font-semibold">Shirt</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -91,9 +91,9 @@ const HomeOutdoorSection = () => {
           </div>
 
           {/* Product 5 */}
-          <div className="bg-white border-2 p-4 text-start">
+          <div className="bg-black border-l-2 border-gray-800 p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Kurta</p>
+              <p className="text-md text-white font-semibold">Kurta</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -108,9 +108,9 @@ const HomeOutdoorSection = () => {
           </div>
 
           {/* Product 6 */}
-          <div className="bg-white border-2 p-4 text-start">
+          <div className="bg-black border-l-2 border-gray-800 p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Womans Shirt</p>
+              <p className="text-md  text-white font-semibold">Womans Shirt</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -126,8 +126,8 @@ const HomeOutdoorSection = () => {
 
           {/* Product 7 */}
 
-          <div className="bg-white border-2 p-4 text-start">
-            <p className="text-sm font-semibold">Jogger Pant</p>
+          <div className="bg-black border-l-2 border-gray-800 p-4 text-start">
+            <p className="text-md font-semibold text-white">Jogger Pant</p>
             <p className="text-xs text-gray-500"></p>
             <div className="flex justify-end">
               <Image
@@ -141,8 +141,8 @@ const HomeOutdoorSection = () => {
           </div>
 
           {/* Product 8 */}
-          <div className="bg-white border-2 p-4 text-start">
-            <p className="text-sm font-semibold">Womans Shorts</p>
+          <div className="bg-black border-l-2 border-gray-800 p-4 text-start">
+            <p className="text-md font-semibold ">Womans Shorts</p>
             <p className="text-xs text-gray-500"></p>
             <div className="flex justify-end">
               <Image

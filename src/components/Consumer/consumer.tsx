@@ -3,7 +3,7 @@ import React from "react";
 
 const Consumer = () => {
   return (
-    <div className="bg-white mt-[22rem] lg:mt-[2rem] border-2 border-gray-300">
+    <div className="bg-black mt-[22rem] lg:mt-[2rem] border-2 border-gray-900">
       {/* Main Container */}
       <div className="flex flex-col lg:flex-row items-start space-y-6 lg:space-y-0 ">
         {/* Left Section - Background Image, Title, and Button */}
@@ -14,7 +14,7 @@ const Consumer = () => {
             backgroundImage: `url("/images/Mens-Fashion.png")`,
           }}
         >
-          <h2 className="text-3xl text-white font-bold mb-4">For mans</h2>
+          <h2 className="text-3xl text-white font-bold mb-4"> For mans </h2>
           <button className="bg-gray-800 text-white px-4 py-2 rounded-full font-bold">
             Shop now
           </button>
@@ -23,9 +23,9 @@ const Consumer = () => {
         {/* Right Section - Products Grid */}
         <div className="w-full lg:w-4/5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
           {/* Product 1 */}
-          <div className="bg-white border-2   p-4 text-start">
+          <div className="bg-black border-b-2 border-gray-900 border-r-2    p-4 text-start">
             <div className="">
-              <p className="text-sm font-semibold">Mens Shirt</p>
+              <p className="text-md text-white font-semibold">Mens Shirt</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end  item-start">
@@ -40,9 +40,9 @@ const Consumer = () => {
           </div>
 
           {/* Product 2 */}
-          <div className="bg-white border-2  p-4 text-start">
+          <div className="bg-black border-b-2 border-gray-900 border-r-2  p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Pant</p>
+              <p className="text-md text-white font-semibold">Pant</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -57,9 +57,9 @@ const Consumer = () => {
           </div>
 
           {/* Product 3 */}
-          <div className="bg-white border-2 p-4 text-start">
+          <div className="bg-black border-b-2 border-gray-900 border-r-2 p-4 text-start">
             <div className="mb-2">
-              <p className="text-sm font-semibold">Mens Shorts</p>
+              <p className="text-md text-white font-semibold">Mens Shorts</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -74,9 +74,9 @@ const Consumer = () => {
           </div>
 
           {/* Product 4 */}
-          <div className="bg-white border-2 p-4 tex-start">
+          <div className="bg-black border-b-2 border-gray-900  p-4 tex-start">
             <div>
-              <p className="text-sm font-semibold">Trouser</p>
+              <p className="text-md text-white font-semibold">Trouser</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -91,9 +91,9 @@ const Consumer = () => {
           </div>
 
           {/* Product 5 */}
-          <div className="bg-white border-2 p-4 text-start">
+          <div className="bg-black border-gray-900 border-r-2 p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Jogger Pant</p>
+              <p className="text-md text-white font-semibold">Jogger Pant</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -108,9 +108,9 @@ const Consumer = () => {
           </div>
 
           {/* Product 6 */}
-          <div className="bg-white border-2 p-4 text-start">
+          <div className="bg-black border-gray-900 border-r-2 p-4 text-start">
             <div>
-              <p className="text-sm font-semibold">Kurta</p>
+              <p className="text-md text-white font-semibold">Kurta</p>
               <p className="text-xs text-gray-500"></p>
             </div>
             <div className="flex justify-end item-start">
@@ -126,8 +126,8 @@ const Consumer = () => {
 
           {/* Product 7 */}
 
-          <div className="bg-white border-2 p-4 text-start">
-            <p className="text-sm font-semibold">Womans T-Shirt</p>
+          <div className="bg-black border-gray-900  border-r-2 p-4 text-start">
+            <p className="text-md text-white font-semibold">Womans T-Shirt</p>
             <p className="text-xs text-gray-500"></p>
             <div className="flex justify-end">
               <Image
@@ -141,8 +141,8 @@ const Consumer = () => {
           </div>
 
           {/* Product 8 */}
-          <div className="bg-white border-2 p-4 text-start">
-            <p className="text-sm font-semibold">Shirt</p>
+          <div className="bg-black  p-4 text-start">
+            <p className="text-md text-white font-semibold">Shirt</p>
             <p className="text-xs text-gray-500"></p>
             <div className="flex justify-end">
               <Image

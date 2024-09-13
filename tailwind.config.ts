@@ -19,9 +19,9 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        "mens-fashion": "url('/images/Mens-Fashion.png')",
+        "bg-mens-fashion": "url('/images/Mens-Fashion.png')",
         clothes: "url('/images/Clothes.jpg')",
-        "womens-fashion": "url(/images/Womans-Fashion.png)",
+        "bg-womans-fashion": "url(/images/Womans-Fashion.png)",
       },
       keyframes: {
         "accordion-down": {

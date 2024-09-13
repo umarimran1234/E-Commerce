@@ -15,8 +15,8 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="bg-white shadow-md">
-      <div className="container border-b-2 mb-2 mx-auto px-4 py-2 flex items-center justify-between">
+    <header className="bg-black shadow-md">
+      <div className="container  mb-2 mx-auto px-4 py-2 flex items-center justify-between">
         {/* Left Side */}
         <div className="flex w-full justify-between items-center space-x-4">
           <Link href="/" className="flex gap-2 items-center">
@@ -55,14 +55,14 @@ const Navbar: React.FC = () => {
               className="flex flex-col justify-center items-center"
             >
               <MdAccountCircle className="text-2xl" />
-              <span className="text-gray-700 hover:text-blue-500">Profile</span>
+              <span className="text-white hover:text-blue-500">Profile</span>
             </Link>
             {/* <Link
               href="#"
               className="flex flex-col justify-center items-center"
             >
               <MdMessage className="text-2xl" />
-              <span className="text-gray-700 hover:text-blue-500">
+              <span className="text-white hover:text-blue-500">
                 Messages
               </span>
             </Link> */}
@@ -71,20 +71,20 @@ const Navbar: React.FC = () => {
               className="flex flex-col justify-center items-center"
             >
               <FaHeart className="text-2xl" />
-              <span className="text-gray-700 hover:text-blue-500">Orders</span>
+              <span className="text-white hover:text-blue-500">Orders</span>
             </Link>
             <Link
               href="#"
               className="flex flex-col justify-center items-center"
             >
               <FaCartShopping className="text-2xl" />
-              <span className="text-gray-700 hover:text-blue-500">My Cart</span>
+              <span className="text-white hover:text-blue-500">My Cart</span>
             </Link>
           </div>
           {/* Hamburger Icon */}
           <div className="lg:hidden">
             <button onClick={handleMenuToggle}>
-              <IoReorderThreeOutline className="text-3xl text-gray-700" />
+              <IoReorderThreeOutline className="text-3xl text-white" />
             </button>
           </div>
         </div>
@@ -92,45 +92,30 @@ const Navbar: React.FC = () => {
 
       {/* Dropdown menu for mobile/tablet */}
       {menuOpen && (
-        <nav className="lg:hidden bg-white shadow-md transition-transform duration-300">
+        <nav className="lg:hidden bg-black shadow-md transition-transform duration-300">
           <ul className="flex flex-col items-start space-y-2 px-4 py-2">
             <li>
-              <Link
-                href="#"
-                className="block text-gray-700 hover:text-blue-500"
-              >
+              <Link href="#" className="block text-white hover:text-blue-500">
                 All Category
               </Link>
             </li>
             <li>
-              <Link
-                href="#"
-                className="block text-gray-700 hover:text-blue-500"
-              >
+              <Link href="#" className="block text-white hover:text-blue-500">
                 Hot Offers
               </Link>
             </li>
             <li>
-              <Link
-                href="#"
-                className="block text-gray-700 hover:text-blue-500"
-              >
+              <Link href="#" className="block text-white hover:text-blue-500">
                 Gift Boxes
               </Link>
             </li>
             <li>
-              <Link
-                href="#"
-                className="block text-gray-700 hover:text-blue-500"
-              >
+              <Link href="#" className="block text-white hover:text-blue-500">
                 Projects
               </Link>
             </li>
             <li>
-              <Link
-                href="#"
-                className="block text-gray-700 hover:text-blue-500"
-              >
+              <Link href="#" className="block text-white hover:text-blue-500">
                 Menu Item
               </Link>
             </li>
@@ -140,36 +125,28 @@ const Navbar: React.FC = () => {
                 className="flex flex-col justify-center items-center"
               >
                 <MdAccountCircle className="text-2xl" />
-                <span className="text-gray-700 hover:text-blue-500">
-                  Profile
-                </span>
+                <span className="text-white hover:text-blue-500">Profile</span>
               </Link>
               <Link
                 href="#"
                 className="flex flex-col justify-center items-center"
               >
                 <MdMessage className="text-2xl" />
-                <span className="text-gray-700 hover:text-blue-500">
-                  Messages
-                </span>
+                <span className="text-white hover:text-blue-500">Messages</span>
               </Link>
               <Link
                 href="#"
                 className="flex flex-col justify-center items-center"
               >
                 <FaHeart className="text-2xl" />
-                <span className="text-gray-700 hover:text-blue-500">
-                  Orders
-                </span>
+                <span className="text-white hover:text-blue-500">Orders</span>
               </Link>
               <Link
                 href="#"
                 className="flex flex-col justify-center items-center"
               >
                 <FaCartShopping className="text-2xl" />
-                <span className="text-gray-700 hover:text-blue-500">
-                  My Cart
-                </span>
+                <span className="text-white hover:text-blue-500">My Cart</span>
               </Link>
             </li>
             <li>
@@ -181,12 +158,14 @@ const Navbar: React.FC = () => {
               <input
                 type="text"
                 placeholder="Search"
-                className="border border-[#0D6EFD] rounded-lg py-2 pl-4 pr-10 w-[18rem] md:w-[30rem] focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border border-[red] rounded-lg py-2 pl-4 pr-10 w-[18rem] md:w-[30rem] focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
-              <select className="absolute right-16 border-l-2 border-[#0D6EFD] top-1/2 transform -translate-y-1/2 text-[#1C1C1C] p-2 text-gray-500">
+              <select className="absolute right-16 border-l-2 border-[red] top-1/2 transform -translate-y-1/2 text-[#1C1C1C] p-2 text-gray-500">
                 <option value="all">All category</option>
+                <option value="Mens">Mens</option>
+                <option value="Wmans">Womans</option>
               </select>
-              <button className="absolute border-[#0D6EFD] right-0 rounded-r-lg text-white top-1/2 transform -translate-y-1/2 p-2 bg-[#0D6EFD]">
+              <button className="absolute border-[red] right-0 rounded-r-lg text-white top-1/2 transform -translate-y-1/2 p-2 bg-[red]">
                 Search
               </button>
             </li>
@@ -199,25 +178,23 @@ const Navbar: React.FC = () => {
         <div className="space-x-8 font-medium flex items-center mb-2">
           <Link href="#" className="flex items-center gap-1">
             <IoReorderThreeOutline className="font-bold text-xl" />
-            <select className="text-gray-700 hover:text-blue-500">
+            <select className="text-black hover:text-blue-500">
               <option value="">All Category</option>
               <option value="">Mens</option>
               <option value="">Womans</option>
             </select>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">Home</span>
+            <span className="text-white hover:text-blue-500">Home</span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">About us</span>
+            <span className="text-white hover:text-blue-500">About us</span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">
-              Contact us
-            </span>
+            <span className="text-white hover:text-blue-500">Contact us</span>
           </Link>
           <Link href="#">
-            <span className="text-gray-700 hover:text-blue-500">Shop</span>
+            <span className="text-white hover:text-blue-500">Shop</span>
           </Link>
         </div>
         {/* Language and Shipping */}
@@ -226,7 +203,7 @@ const Navbar: React.FC = () => {
             <option>English,</option>
           </select>
           {/* <div>
-            <select className="text-gray-700">
+            <select className="text-white">
               <option>Ship to</option>
             </select>
           </div> */}
