@@ -1,12 +1,11 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
 import { MdAccountCircle } from "react-icons/md";
 
 const Banner: React.FC = () => {
   const [activeTab, setActiveTab] = useState("Mens");
 
-  const tabs = ["Mens", "Clothes and wear", "Womans"];
+  const tabs = ["Mens", "Clothes and wear", "Womens"];
 
   const getContent = () => {
     switch (activeTab) {
@@ -14,7 +13,7 @@ const Banner: React.FC = () => {
         return "Men's trending fashion items";
       case "Clothes and wear":
         return "Trending fashion items";
-      case "Womans":
+      case "Womens":
         return "Women's cloths here";
 
       default:
@@ -31,8 +30,10 @@ const Banner: React.FC = () => {
             {tabs.map((tab) => (
               <li
                 key={tab}
-                className={`cursor-pointer p-2 {
-                  activeTab === tab ? "bg-red-900 text-white font-medium rounded-lg" : ""
+                className={`cursor-pointer p-2 ${
+                  activeTab === tab
+                    ? "bg-blue-200 text-black font-medium rounded-lg"
+                    : "text-white"
                 }`}
                 onClick={() => setActiveTab(tab)}
               >
@@ -45,13 +46,13 @@ const Banner: React.FC = () => {
         {/* Main Content Area */}
         <main className="w-full md:w-3/5 p-4">
           <div
-            className={`p-6 rounded-lg h-[20rem] {
+            className={`p-6 rounded-lg h-[20rem] ${
               activeTab === "Mens" && "bg-mens-fashion"
-            } {activeTab === "Clothes and wear" && "bg-clothes"} {
-              activeTab === "Womans" && "bg-womans-fashion"
+            } ${activeTab === "Clothes and wear" && "bg-clothes"} ${
+              activeTab === "Womans" && "bg-Womans-Fashion"
             }`}
           >
-            <h2 className="text-xl font-semibold  text-white w-fit p-2 rounded-xl">
+            <h2 className="text-xl font-semibold bg-white text-black w-fit p-2 rounded-xl">
               {getContent()}
             </h2>
             <button className="bg-white text-black p-2 mt-4 rounded-md">
@@ -63,15 +64,15 @@ const Banner: React.FC = () => {
         {/* User/Promotion Panel */}
         <aside className="w-full md:w-1/5 p-4 flex flex-col gap-4">
           <div className="bg-[#E3F0FF] p-4 rounded-lg">
-            <p className="flex text-black font-bold items-center gap-2">
+            <h3 className="flex items-center gap-2 text-black">
               <MdAccountCircle className="text-4xl" /> Hi, user lets get started
-            </p>
+            </h3>
             <div className="flex flex-col">
               <button className="bg-[red] font-medimum text-white py-2 px-4 rounded-md mt-2">
-                <Link href={"/signup"}>Join now</Link>
+                Join now
               </button>
-              <button className="bg-black text-[#0D6EFD] font-medium py-2 px-4 rounded-md mt-2">
-                <Link href={"/signin"}>Log in </Link>
+              <button className="bg-white text-[#0D6EFD] font-medium py-2 px-4 rounded-md mt-2">
+                Log in
               </button>
             </div>
           </div>

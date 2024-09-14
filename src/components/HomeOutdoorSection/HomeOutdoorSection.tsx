@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeOutdoorSection = () => {
   return (
-    <div className="bg-black mt-[22rem] lg:mt-[2rem] border-gray-800 border-2 border-gray-300">
+    <div className="bg-black mt-[34rem] lg:mt-[2rem] border-gray-800 border-2 border-gray-300">
       {/* Main Container */}
       <div className="flex flex-col lg:flex-row items-start space-y-6 lg:space-y-0 ">
         {/* Left Section - Background Image, Title, and Button */}

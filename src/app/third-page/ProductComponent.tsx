@@ -55,13 +55,13 @@ const ProductComponent: React.FC = () => {
 
   return (
     <div className="container mx-auto mt-10">
-      <div className="grid border-gray-200 p-4 border-2 rounded-lg grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid border-gray-900 p-4 border-2 rounded-lg grid-cols-1 md:grid-cols-2 gap-4">
         {/* Left section: Image */}
         <div className="space-y-4">
           <img
             src={product.images[selectedImage]}
             alt="Product"
-            className="w-[380px] object-cover h-[380px] mx-auto border-2 border-gray-200 p-2 rounded-lg"
+            className="w-[380px] object-cover h-[380px] mx-auto border-2 border-gray-900 p-2 rounded-lg"
           />
           <div className="grid grid-cols-6 gap-2">
             {product.images.map((img, idx) => (
@@ -148,10 +148,10 @@ const ProductComponent: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:w-1/2 md:w-full boder-gray-200 border-2 h-fit p-2 rounded-lg">
+          <div className="lg:w-1/2 md:w-full border-gray-900 border-2 h-fit p-2 rounded-lg">
             <div className="flex flex-col">
-              <div className="font-semibold">Supplier</div>
-              <span className="pb-2 border-b-2 border-gray-200">
+              <div className="font-semibold text-white">Supplier</div>
+              <span className="pb-2 border-b-2 text-white border-gray-200">
                 {product.supplier.name}
               </span>
               <span className="mt-2 text-gray-500">
@@ -166,7 +166,7 @@ const ProductComponent: React.FC = () => {
             </div>
 
             <div className="flex flex-col gap-2 mt-4">
-              <button className="bg-blue-500 text-white px-4 py-1 font-semibold rounded">
+              <button className="bg-red-500 text-white px-4 py-1 font-semibold rounded">
                 Send inquiry
               </button>
               <button className="border-2 border-gray-200 text-[#0D6EFD] font-medium px-4 py-1 rounded">
