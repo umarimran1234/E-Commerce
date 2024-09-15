@@ -23,9 +23,9 @@ const Navbar: React.FC = () => {
             {/* Brand Logo */}
             <Image
               width={100}
-              height={100}
+              height={200}
               alt="Website logo"
-              src="/images/logoOnce.png"
+              src="/images/E-CommerceLogo-1.jpg"
               className=" rounded-lg  " // Ensure logo resizes properly
             />
           </Link>
