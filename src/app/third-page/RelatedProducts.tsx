@@ -11,31 +11,31 @@ const relatedProducts: Product[] = [
   {
     id: 1,
     name: "Long Sleeve T-shirt",
-    priceRange: "$32.00–$40.00",
+    priceRange: "32.00 PKR–40.00 PKR",
     imageUrl: "/images/FirstShirt.png",
   },
   {
     id: 2,
     name: "Long Sleeve T-shirt",
-    priceRange: "$32.00–$40.00",
+    priceRange: "32.00 PKR–40.00 PKR",
     imageUrl: "/images/SecondShirt.png",
   },
   {
     id: 3,
     name: "Long Sleeve T-shirt",
-    priceRange: "$32.00–$40.00",
+    priceRange: "32.00 PKR–40.00 PKR",
     imageUrl: "/images/ThirdShirt.png",
   },
   {
     id: 4,
     name: "Long Sleeve T-shirt",
-    priceRange: "$32.00–$40.00",
+    priceRange: "32.00 PKR–$40.00",
     imageUrl: "/images/FourthShirt.png",
   },
   {
     id: 5,
     name: "Long Sleeve T-shirt",
-    priceRange: "$32.00–$40.00",
+    priceRange: "32.00 PKR–40.00 PKR",
     imageUrl: "/images/FifthShirt.png",
   },
 ];

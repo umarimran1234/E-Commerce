@@ -61,7 +61,7 @@ const ProductTabs = () => {
                 </tr>
               </tbody>
             </table>
-            <ul className="space-y-2">
+            <ul className="space-y-2 text-white">
               <li className="hover:text-blue-500 flex items-center gap-2">
                 <TiTick /> Some great feature name here
               </li>

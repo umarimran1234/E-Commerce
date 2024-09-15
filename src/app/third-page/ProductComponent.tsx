@@ -32,9 +32,9 @@ const ProductComponent: React.FC = () => {
     reviews: 32,
     sold: 154,
     priceTiers: [
-      { range: "50-100 pcs", price: "$98.00" },
-      { range: "100-700 pcs", price: "$90.00" },
-      { range: "700+ pcs", price: "$78.00" },
+      { range: "50-100 pcs", price: "98.00 PKR" },
+      { range: "100-700 pcs", price: "90.00 PKR" },
+      { range: "700+ pcs", price: "78.00 PKR" },
     ],
     type: "Classic shoes",
     material: "Plastic material",
