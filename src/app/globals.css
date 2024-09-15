@@ -14,3 +14,49 @@ h5,
 h6 {
   color: white;
 }
+
+#parent {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+.div {
+  height: 100%;
+  width: calc(100% / 1);
+  cursor: pointer;
+  transition: width 750ms ease-in-out;
+  transition-delay: 250ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child1 {
+  background: #dedede;
+  color: black;
+}
+
+.child2 {
+  background: #000;
+  color: white;
+}
+
+.child3 {
+  background: #e9a4b3;
+  color: white;
+}
+
+.div p {
+  text-align: center;
+  font-weight: 700;
+  transition: all 750ms ease-in-out;
+  transition-delay: 250ms;
+}
+
+.div:hover {
+  width: 200%;
+}
+
+.div:hover p {
+  transform: scale(4);
+}

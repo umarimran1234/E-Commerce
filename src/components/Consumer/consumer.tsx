@@ -3,7 +3,7 @@ import React from "react";
 
 const Consumer = () => {
   return (
-    <div className="bg-black mt-[22rem] lg:mt-[2rem] border-2 border-gray-900">
+    <div className="bg-black mt-[12rem] lg:mt-[2rem] border-2 border-gray-900">
       {/* Main Container */}
       <div className="flex flex-col lg:flex-row items-start space-y-6 lg:space-y-0 ">
         {/* Left Section - Background Image, Title, and Button */}
