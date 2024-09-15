@@ -3,7 +3,7 @@ import LayoutShift from "@/components/LayoutShift/LayoutShift";
 import Navbar from "@/components/Navbar/Navbar";
 import Navigation from "@/components/Navigation/Navigation";
 import FilterSidebar from "@/components/Sidebar/FilterSidebar";
-import SubscribeSec from "@/components/subscribe/Subscribe";
+// import SubscribeSec from "@/components/subscribe/Subscribe";
 
 function SecondPage() {
   return (
@@ -18,7 +18,7 @@ function SecondPage() {
           </div>
         </div>
       </div>
-      <SubscribeSec />
+      {/* <SubscribeSec /> */}
       <Footer />
     </>
   );
