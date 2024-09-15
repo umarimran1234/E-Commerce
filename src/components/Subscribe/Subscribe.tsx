@@ -1,6 +1,6 @@
 import React from "react";
 
-const Subscribe = () => {
+const SubscribeSec = () => {
   return (
     <>
       <div
@@ -44,4 +44,4 @@ const Subscribe = () => {
   );
 };
 
-export default Subscribe;
+export default SubscribeSec;
