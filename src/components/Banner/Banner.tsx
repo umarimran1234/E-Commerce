@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { MdAccountCircle } from "react-icons/md";
 
@@ -69,10 +70,10 @@ const Banner: React.FC = () => {
             </h3>
             <div className="flex flex-col">
               <button className="bg-[red] font-medimum text-white py-2 px-4 rounded-md mt-2">
-                Join now
+                <Link href={"/singup"}>Join now</Link>
               </button>
               <button className="bg-white text-[#0D6EFD] font-medium py-2 px-4 rounded-md mt-2">
-                Log in
+                <Link href={"/signin"}>Log in</Link>
               </button>
             </div>
           </div>
