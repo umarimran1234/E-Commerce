@@ -56,8 +56,8 @@ const QuoteForm: React.FC = () => {
             Sign In today for latest updates.
           </h1>
           <p className="mt-4 text-white lg:w-1/2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt.
+            Sign in for latest updates and stay tuned with us and get amazing
+            products.
           </p>
         </div>
         <form
@@ -65,7 +65,7 @@ const QuoteForm: React.FC = () => {
           className="w-full lg:w-1/3 p-4 bg-white rounded-lg"
         >
           <div className="flex flex-col gap-4">
-            <div className="text-center">
+            <div className="text-center item-center">
               <h3 className="text-black font-bold text-xl mb-4">SIGN UP </h3>
               <div className="flex-1 text-start">
                 <label
@@ -80,7 +80,7 @@ const QuoteForm: React.FC = () => {
                   name="item"
                   value={formData.item}
                   onChange={handleInputChange}
-                  className="w-full placeholder-gray text-black border border-gray-300 rounded px-4 py-1"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder=" Enter your  Email "
                   required
                 />
@@ -91,8 +91,7 @@ const QuoteForm: React.FC = () => {
                 htmlFor="details"
                 className="block p-2 font-bold text-gray-700"
               >
-                {" "}
-                Password{" "}
+                Password
               </label>
               <input
                 type="text"
@@ -100,27 +99,18 @@ const QuoteForm: React.FC = () => {
                 name="item"
                 value={formData.item}
                 onChange={handleInputChange}
-                className="w-full placeholder-gray text-black border border-gray-300 rounded px-4 py-1"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Password"
                 required
               />
             </div>
           </div>
-          <div className="flex gap-2 lg:flex-row items-center mt-4">
-            {/* <input
-              type="text"
-              id="quantity"
-              placeholder="Quantity"
-              name="quantity"
-              className="border placeholder-black text-black border-gray-300 rounded px-4 py-2"
-              disabled
-            /> */}
-          </div>
+
           <button
             type="submit"
             className="text-white bg-red-500 py-2 px-4 rounded mt-4"
           >
-            SIGN UP
+            SIGN IN
           </button>
         </form>
       </div>

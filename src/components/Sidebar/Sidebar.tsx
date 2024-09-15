@@ -2,37 +2,36 @@
 import React, { useState, useEffect } from 'react';
 
 interface FilterItem {
-    label: string;
-    value: string;
+  label: string;
+  value: string;
 }
 
 interface FilterCategory {
-    name: string;
-    options: FilterItem[];
+  name: string;
+  options: FilterItem[];
 }
 
 interface SidebarProps {
-    data: FilterCategory[]; // This will hold the JSON data
-    onFilterChange: (selectedFilters: string[]) => void; // Function to handle filter selection changes
+  data: FilterCategory[]; // This will hold the JSON data
+  onFilterChange: (selectedFilters: string[]) => void; // Function to handle filter selection changes
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ data, onFilterChange }) => {
     const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-    const handleFilterChange = (value: string) => {
-        const updatedFilters = selectedFilters.includes(value)
-            ? selectedFilters.filter((filter) => filter !== value)
-            : [...selectedFilters, value];
-        setSelectedFilters(updatedFilters);
-        onFilterChange(updatedFilters);
-    };
+  const handleFilterChange = (value: string) => {
+    const updatedFilters = selectedFilters.includes(value)
+      ? selectedFilters.filter((filter) => filter !== value)
+      : [...selectedFilters, value];
+    setSelectedFilters(updatedFilters);
+    onFilterChange(updatedFilters);
+  };
 
-    const handleResetFilters = () => {
-        setSelectedFilters([]);
-        onFilterChange([]);
-    };
-
+  const handleResetFilters = () => {
+    setSelectedFilters([]);
+    onFilterChange([]);
+  };
     // Close sidebar on outside click
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {

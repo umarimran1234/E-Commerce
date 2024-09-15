@@ -23,7 +23,7 @@ const Banner: React.FC = () => {
 
   return (
     <div className=" mt-10">
-      <div className="flex flex-col md:flex-row md:justify-between border-2 rounded-lg border-gray-300 p-1">
+      <div className="flex flex-col md:flex-row md:justify-between border-2 rounded-lg border-gray-900 p-1">
         {/* Sidebar */}
         <aside className="w-full md:w-1/5 p-4">
           <ul>
@@ -31,7 +31,9 @@ const Banner: React.FC = () => {
               <li
                 key={tab}
                 className={`cursor-pointer p-2 ${
-                  activeTab === tab ? "bg-blue-200 font-medium rounded-lg" : ""
+                  activeTab === tab
+                    ? "bg-blue-200 text-black font-medium rounded-lg"
+                    : "text-white"
                 }`}
                 onClick={() => setActiveTab(tab)}
               >
@@ -47,7 +49,7 @@ const Banner: React.FC = () => {
             className={`p-6 rounded-lg h-[20rem] ${
               activeTab === "Mens" && "bg-mens-fashion"
             } ${activeTab === "Clothes and wear" && "bg-clothes"} ${
-              activeTab === "Womens" && "bg-womens-fashion"
+              activeTab === "Womans" && "bg-Womans-Fashion"
             }`}
           >
             <h2 className="text-xl font-semibold bg-white text-black w-fit p-2 rounded-xl">
@@ -62,7 +64,7 @@ const Banner: React.FC = () => {
         {/* User/Promotion Panel */}
         <aside className="w-full md:w-1/5 p-4 flex flex-col gap-4">
           <div className="bg-[#E3F0FF] p-4 rounded-lg">
-            <h3 className="flex items-center gap-2">
+            <h3 className="flex items-center gap-2 text-black">
               <MdAccountCircle className="text-4xl" /> Hi, user lets get started
             </h3>
             <div className="flex flex-col">

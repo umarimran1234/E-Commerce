@@ -5,39 +5,39 @@ import React from "react";
 // import Swal from "sweetalert2";
 
 const LoginForm = () => {
-//   const router = useRouter();
-//   const handleLogin = async (event) => {
-//     event.preventDefault();
-//     const email = event.target.email.value;
-//     const password = event.target.password.value;
+  //   const router = useRouter();
+  //   const handleLogin = async (event) => {
+  //     event.preventDefault();
+  //     const email = event.target.email.value;
+  //     const password = event.target.password.value;
 
-//     const resp = await signIn("credentials", {
-//       email,
-//       password,
-//       redirect: false,
-//     });
+  //     const resp = await signIn("credentials", {
+  //       email,
+  //       password,
+  //       redirect: false,
+  //     });
 
-//     if (resp.status === 200) {
-//       Swal.fire({
-//         position: "top-end",
-//         icon: "success",
-//         title: "User login successful",
-//         showConfirmButton: false,
-//         timer: 1500,
-//       });
-//       router.push("/");
-//     }
+  //     if (resp.status === 200) {
+  //       Swal.fire({
+  //         position: "top-end",
+  //         icon: "success",
+  //         title: "User login successful",
+  //         showConfirmButton: false,
+  //         timer: 1500,
+  //       });
+  //       router.push("/");
+  //     }
 
-//     if (resp.status !== 200) {
-//       Swal.fire({
-//         position: "bottom-end",
-//         icon: "error",
-//         title: "User Login Failed",
-//         showConfirmButton: false,
-//         timer: 1500,
-//       });
-//     }
-//   };
+  //     if (resp.status !== 200) {
+  //       Swal.fire({
+  //         position: "bottom-end",
+  //         icon: "error",
+  //         title: "User Login Failed",
+  //         showConfirmButton: false,
+  //         timer: 1500,
+  //       });
+  //     }
+  //   };
 
   return (
     <form>
@@ -111,7 +111,7 @@ const LoginForm = () => {
       <div className="mb-6">
         <button
           type="submit"
-          className="flex w-full items-center justify-center rounded-sm bg-red-500 px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+          className="flex w-full items-center justify-center rounded-sm bg-black px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
         >
           Sign in
         </button>

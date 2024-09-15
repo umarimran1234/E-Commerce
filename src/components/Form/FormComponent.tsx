@@ -4,51 +4,51 @@ import React from "react";
 // import Swal from "sweetalert2";
 
 const FormComponent = () => {
-//   const router = useRouter();
-//   const handleRegister = async (event) => {
-//     event.preventDefault();
+  //   const router = useRouter();
+  //   const handleRegister = async (event) => {
+  //     event.preventDefault();
 
-//     const newUser = {
-//       name: event.target.name.value,
-//       email: event.target.email.value,
-//       password: event.target.password.value,
-//     };
-//     // console.log(newUser);
-//     const resp = await fetch("http://localhost:3000/signup/api", {
-//       method: "POST",
-//       body: JSON.stringify(newUser),
-//       headers: {
-//         "content-type": "application/json",
-//       },
-//     });
-//     if (resp.status === 200) {
-//       Swal.fire({
-//         position: "top-end",
-//         icon: "success",
-//         title: "Registration successful. You can login now",
-//         showConfirmButton: false,
-//         timer: 1500,
-//       });
-//       router.push("/");
-//     }
+  //     const newUser = {
+  //       name: event.target.name.value,
+  //       email: event.target.email.value,
+  //       password: event.target.password.value,
+  //     };
+  //     // console.log(newUser);
+  //     const resp = await fetch("http://localhost:3000/signup/api", {
+  //       method: "POST",
+  //       body: JSON.stringify(newUser),
+  //       headers: {
+  //         "content-type": "application/json",
+  //       },
+  //     });
+  //     if (resp.status === 200) {
+  //       Swal.fire({
+  //         position: "top-end",
+  //         icon: "success",
+  //         title: "Registration successful. You can login now",
+  //         showConfirmButton: false,
+  //         timer: 1500,
+  //       });
+  //       router.push("/");
+  //     }
 
-//     if(resp.status !== 200){
-//       Swal.fire({
-//         position: "bottom-end",
-//         icon: "error",
-//         title: "User Registration failed",
-//         showConfirmButton: false,
-//         timer: 1500,
-//       });
-//     }
-//   };
+  //     if(resp.status !== 200){
+  //       Swal.fire({
+  //         position: "bottom-end",
+  //         icon: "error",
+  //         title: "User Registration failed",
+  //         showConfirmButton: false,
+  //         timer: 1500,
+  //       });
+  //     }
+  //   };
 
   return (
     <form>
       <div className="mb-8">
         <label
           htmlFor="name"
-          className="mb-3 block text-sm text-dark dark:text-white"
+          className="mb-3 block text-sm text-black dark:text-black"
         >
           {" "}
           Full Name{" "}
@@ -63,7 +63,7 @@ const FormComponent = () => {
       <div className="mb-8">
         <label
           htmlFor="email"
-          className="mb-3 block text-sm text-dark dark:text-white"
+          className="mb-3 block text-sm text-black dark:text-black"
         >
           {" "}
           Work Email{" "}
@@ -78,7 +78,7 @@ const FormComponent = () => {
       <div className="mb-8">
         <label
           htmlFor="password"
-          className="mb-3 block text-sm text-dark dark:text-white"
+          className="mb-3 block text-sm text-dark dark:text-black"
         >
           {" "}
           Your Password{" "}
@@ -133,7 +133,7 @@ const FormComponent = () => {
       <div className="mb-6">
         <button
           type="submit"
-          className="flex w-full items-center justify-center rounded-sm bg-red-500 text-white px-9 py-4 text-base font-medium shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+          className="flex w-full items-center justify-center rounded-sm bg-black text-white px-9 py-4 text-base font-medium shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
         >
           Sign up
         </button>

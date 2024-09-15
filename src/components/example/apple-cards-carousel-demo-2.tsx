@@ -10,7 +10,7 @@ export default function AppleCardsCarouselDemo() {
 
   return (
     <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl text-red-600 font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Recommended items
       </h2>
       <Carousel items={cards} />
@@ -29,12 +29,9 @@ const DummyContent = () => {
           >
             <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700">
-                The first rule of Apple club is that you boast about Apple club.
+                We have a amazing items for mens and also New Fashion .
               </span>{" "}
-              Keep a journal, quickly jot down a grocery list, and take amazing
-              class notes. Want to convert those notes to text? No problem.
-              Langotiya jeetu ka mara hua yaar is ready to capture every
-              thought.
+              Explore new fashion .
             </p>
             <Image
               src="/images/Kurta-Big.png"

@@ -71,9 +71,8 @@ export default function Main() {
 
           <AppleCardsCarouselDemo />
           <QuoteForm />
-          <div>
-            {/* <TimelineDemo /> */}
-          </div>
+          <div>{/* <TimelineDemo /> */}</div>
+
           {/* <Subscribe /> */}
           <Footer />
         </>
