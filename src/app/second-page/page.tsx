@@ -3,7 +3,7 @@ import LayoutShift from "@/components/LayoutShift/LayoutShift";
 import Navbar from "@/components/Navbar/Navbar";
 import Navigation from "@/components/Navigation/Navigation";
 import FilterSidebar from "@/components/Sidebar/FilterSidebar";
-import Subscribe from "@/components/subscribe/Subscribe";
+import Subscribe from "@/components/Subscribe/Subscribe";
 
 function SecondPage() {
     return (

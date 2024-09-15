@@ -54,44 +54,23 @@ function LayoutShift() {
   };
 
   // console.log(isGrid)
-    return (
-        <>
-            <div className='container mx-auto'>
-                <div className="flex items-center gap-1 border-2 p-2 md:items-center md:gap-2 flex-col rounded-lg lg:flex-row lg:justify-between mt-20">
-                    <p className="">12,911 items in <span className='font-semibold'>Mobile accessory</span></p>
-                    <div className="flex items-center md:space-x-4">
-                        <div className="flex items-center">
-                            <input type="checkbox" className="w-4 h-4 border-gray-300 rounded" />
-                            <label className="ml-2">Verified only</label>
-                        </div>
-                        <div className="flex gap-1 md:gap-2 items-center">
-                            <select className="border-2 rounded px-2">
-                                <option value="">Featured</option>
-                                {/* Add more options as needed */}
-                            </select>
-                            <button onClick={() => handleGrid()} className={`${isGrid ? "p-1 md:text-xl bg-gray-300 rounded-lg border-2" : "p-1 md:text-xl rounded-lg border-2"}`}><IoGridSharp /></button>
-                            <button onClick={() => handleNormal()} className={`${!isGrid ? "p-1 md:text-xl bg-gray-300 rounded-lg border-2" : "p-1 md:text-xl rounded-lg border-2"}`}><IoReorderThreeOutline /></button>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <>
+      <div className='container mx-auto'>
+        <div className="flex items-center gap-1 border-2 p-2 md:items-center md:gap-2 flex-col rounded-lg lg:flex-row lg:justify-between mt-20">
+          <p className="text-white">12,911 items in <span className='font-semibold'>Mobile accessory</span></p>
+          <div className="flex items-center md:space-x-4">
+            <div className="flex items-center">
+              <input type="checkbox" className="w-4 h-4 border-gray-300 rounded" />
+              <label className="ml-2 text-white">Verified only</label>
             </div>
             <div className="flex gap-1 md:gap-2 items-center">
               <select className="border-2 rounded px-2">
                 <option value="">Featured</option>
                 {/* Add more options as needed */}
               </select>
-              <button
-                onClick={() => handleGrid()}
-                className={`{isGrid ? "p-1 md:text-xl bg-gray-300 rounded-lg border-2" : "p-1 md:text-xl rounded-lg border-2"}`}
-              >
-                <IoGridSharp />
-              </button>
-              <button
-                onClick={() => handleNormal()}
-                className={`{!isGrid ? "p-1 md:text-xl bg-gray-300 rounded-lg border-2" : "p-1 md:text-xl rounded-lg border-2"}`}
-              >
-                <IoReorderThreeOutline />
-              </button>
+              <button onClick={() => handleGrid()} className={`${isGrid ? "p-1 md:text-xl bg-gray-300 rounded-lg border-2" : "p-1 md:text-xl text-white rounded-lg border-2"}`}><IoGridSharp /></button>
+              <button onClick={() => handleNormal()} className={`${!isGrid ? "p-1 md:text-xl bg-gray-300 rounded-lg border-2" : "p-1 md:text-xl text-white rounded-lg border-2"}`}><IoReorderThreeOutline /></button>
             </div>
           </div>
         </div>
@@ -106,9 +85,8 @@ function LayoutShift() {
               className="bg-black border-2 border-gray-300 m-2 rounded-lg shadow-md overflow-hidden"
             >
               <div
-                className={`flex ${
-                  !isGrid ? "md:flex-row flex-col " : "flex-col "
-                }`}
+                className={`flex ${!isGrid ? "md:flex-row flex-col " : "flex-col "
+                  }`}
                 style={{ alignItems: "center" }}
               >
                 <img
