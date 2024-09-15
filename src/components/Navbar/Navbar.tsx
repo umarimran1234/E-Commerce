@@ -184,16 +184,16 @@ const Navbar: React.FC = () => {
               <option value="">Womans</option>
             </select>
           </Link>
-          <Link href="#">
+          <Link href="/">
             <span className="text-white hover:text-blue-500">Home</span>
           </Link>
-          <Link href="#">
+          <Link href="/second-page">
             <span className="text-white hover:text-blue-500">About us</span>
           </Link>
-          <Link href="#">
+          <Link href="/signup">
             <span className="text-white hover:text-blue-500">Contact us</span>
           </Link>
-          <Link href="#">
+          <Link href="/third-page">
             <span className="text-white hover:text-blue-500">Shop</span>
           </Link>
         </div>
