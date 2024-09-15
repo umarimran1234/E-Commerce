@@ -7,10 +7,11 @@ import Footer from "@/components/Footer/Footer";
 import HomeOutdoorSection from "@/components/HomeOutdoorSection/HomeOutdoorSection";
 import Navbar from "@/components/Navbar/Navbar";
 import Consumer from "../Consumer/consumer";
-import AppleCardsCarouselDemo from "../example/apple-cards-carousel-demo-2";
+
 // import TimelineDemo from "../example/timeline-demo";
 import QuoteForm from "../QuoteForm/QuoteForm";
 import CircleAnimation from "../CircleAnimation/CircleAnimation"; // Import the CircleAnimation component
+import HoverExpend from "../hoverExpend/HoverExpend";
 
 export default function Main() {
   const [showContent, setShowContent] = useState(false);
@@ -69,7 +70,8 @@ export default function Main() {
             <Consumer />
           </motion.div>
 
-          <AppleCardsCarouselDemo />
+          <HoverExpend />
+
           <QuoteForm />
           <div>{/* <TimelineDemo /> */}</div>
 
